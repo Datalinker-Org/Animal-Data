@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "ICARAnimalEventMilking": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalEventMilking",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalEventMilking.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARAnimalEventDryingOff": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalEventDryingOff",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalEventDryingOff.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARAnimalEventHeat": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalEventHeat",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalEventHeat.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARAnimalEventInsemination": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalEventInsemination",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalEventInsemination.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARAnimalEventParturition": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalEventParturition",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalEventParturition.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARAnimalEventPregnancyCheck": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalEventPregnancyCheck",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalEventPregnancyCheck.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARAnimalParturitionOffSpring": {
+            "@id": "https://www.datalinker.org/context/ICARAnimalParturitionOffSpring",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARAnimalParturitionOffSpring.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARHerdEventMovement": {
+            "@id": "https://www.datalinker.org/context/ICARHerdEventMovement",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARHerdEventMovement.jsonld",
+            "type": "object",
+            "dldescription": ""
+        },
+        "ICARHerdEventMilking": {
+            "@id": "https://www.datalinker.org/context/ICARHerdEventMilking",
+            "@type": "http://www.datalinker.org/contexts/2.0/ICARHerdEventMilking.jsonld",
+            "type": "object",
+            "dldescription": ""
+        }
+    }
+}
