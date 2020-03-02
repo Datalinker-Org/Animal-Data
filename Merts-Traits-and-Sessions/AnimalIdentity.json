@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "animalIdentifiers": {
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier",
+            "@type": "https://www.datalinker.org/contexts/2.0/AnimalIdentifier.jsonld",
+            "type": "array",
+            "items": {
+                "type": "object"
+            },
+            "@container": "@set",
+            "dldescription": "Provides reference to the identifier used to represent the animal at various states - birth, current or historic"
+        },
+        "herdState": {
+            "@id": "https://www.datalinker.org/context/AnimalHerdState",
+            "@type": "https://www.datalinker.org/contexts/2.0/AnimalHerdState.jsonld",
+            "type": "array",
+            "items": {
+                "type": "object"
+            },
+            "@container": "@set",
+            "dldescription": "Provides reference to the herd the animal belongs to various states - birth, current or historic"
+        },
+        "locations": {
+            "@id": "https://www.datalinker.org/context/AnimalLocationState",
+            "@type": "https://www.datalinker.org/contexts/2.0/AnimalLocationState.jsonld",
+            "type": "array",
+            "items": {
+                "type": "object"
+            },
+            "@container": "@set",
+            "dldescription": "Provides reference to the location the animal has been at various states - birth, current or historic  "
+        }
+    }
+}

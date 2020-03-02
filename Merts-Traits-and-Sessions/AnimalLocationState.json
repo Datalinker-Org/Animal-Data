@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "state": {
+            "@id": "https://www.datalinker.org/context/AnimalLocationState-State",
+            "@type": "xsd:string",
+            "type": "string",
+            "dldescription": "Indicates the time/period in the animal's life which the data represents: original (birth), current (moved), historic"
+        },
+        "validFrom": {
+            "@id": "https://www.datalinker.org/context/AnimalLocationState-ValidFrom",
+            "@type": "xsd:date",
+            "type": "string",
+            "dldescription": "Start date of the animal at the location"
+        },
+        "validThrough": {
+            "@id": "https://www.datalinker.org/context/AnimalLocationState-ValidThrough",
+            "@type": "xsd:date",
+            "type": "string",
+            "dldescription": "End date of the animal at the location"
+        },
+        "herdIdentifiers": {
+            "@id": "https://www.datalinker.org/context/AnimalLocationState-HerdIdentifiers",
+            "@type": "xsd:string",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "@container": "@set",
+            "dldescription": "Identifiers for the herd of the animal, according to the industry body that governs the herd codes for the species or breed."
+        }
+    }
+}
