@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "namespace": {
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier-Namespace",
+            "@type": "xsd:string",
+            "type": "string",
+            "format": "uri",
+            "dldescription": "URI identifier for the source of the animal identifier"
+        },
+        "identifier":{
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier-Identifier",
+            "@type": "xsd:string",
+            "type": "string",
+            "dldescription": "a unique value for the given identifier for the animal"
+        },
+        "state": {
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier-State",
+            "@type": "xsd:string",
+            "type": "string",
+            "dldescription": "State of the animalId (birth, current, historic)"
+        },
+        "validFrom": {
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier-ValidFrom",
+            "@type": "xsd:date",
+            "type": "string",
+            "dldescription": "Start date of the Identifer"
+        },
+        "validThrough": {
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier-ValidThrough",
+            "@type": "xsd:date",
+            "type": "string",
+            "dldescription": "End date of the Identifier"
+        },
+        "identifierType": {
+            "@id": "https://www.datalinker.org/context/AnimalIdentifier-IdentifierType",
+            "@type": "xsd:string",
+            "type": "string",
+            "dldescription": "Type of animal identifer. Each animal identifier SHOULD  also specify the type of identifier (Official, Management, Electronic, Tattoo, Brand, Calculated) so that a receiving system which is unable to interpret namespaces may use a generic method to interpret the identifier."
+        }
+    }
+}

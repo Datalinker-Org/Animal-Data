@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "herd": {
+            "@id": "https://www.datalinker.org/context/AnimalHerdState-Herd",
+            "@type": "@id",
+            "type": "string",
+            "format": "uri",
+            "dldescription": "This is a link to the herd details"
+        },
+        "herdCode": {
+            "@id": "https://www.datalinker.org/context/AnimalHerdState-HerdCode",
+            "@type": "xsd:string",
+            "type": "string",
+            "dldescription": "This is the URN identifier for the herd of the animal. E.g.urn:nzl:pri:animal:sil:<herdstring>"
+        },
+        "state": {
+            "@id": "https://www.datalinker.org/context/AnimalHerdState-State",
+            "@type": "xsd:string",
+            "type": "string",
+            "dldescription": "Describes the state of the herd :  original (birth), current (moved), historic"
+        },
+        "validFrom": {
+            "@id": "https://www.datalinker.org/context/AnimalHerdState-ValidFrom",
+            "@type": "xsd:date",
+            "type": "string",
+            "dldescription": "The herd start date"
+        },
+        "validThrough": {
+            "@id": "https://www.datalinker.org/context/AnimalHerdState-ValidThrough",
+            "@type": "xsd:date",
+            "type": "string",
+            "dldescription": "The herd end date"
+        }
+    }
+}

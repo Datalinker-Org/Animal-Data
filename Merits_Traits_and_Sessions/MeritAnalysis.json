@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "analysisUrl":{
+            "@id":"https://www.datalinker.org/context/AnimalMeritsData-analysisUrl",
+            "@type":"xsd:string",
+            "type":"string",
+            "format":"uri",
+            "dldescription":"A link to get more information about the analysis"
+        },
+        "merits":{
+            "@id":"https://www.datalinker.org/context/MeritValue",
+            "@type":"https://www.datalinker.org/context/2.0/MeritValue/jsonld",
+            "type":"array",
+            "items":{
+                "type":"object"
+            } ,
+            "@container":"@set",
+            "dldescription":"An array of measured merit values for the animal"
+        }
+    }
+}
