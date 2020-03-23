@@ -8,9 +8,6 @@ Type: `object`
 	 - _Lists and provides details of the suppliers_
 	 - Type: `array`
 	 - <b id="httpswww.datalinker.orgcontextcarcasssupplier">https://www.datalinker.org/context/CarcassSupplier</b>
-		 - **_Items_**
-		 - Type: `object`
-		 - **_Properties_**
  - <b id="#/properties/organization">organization</b>
 	 - _Url to get information about provider organization_
 	 - Type: `string`
