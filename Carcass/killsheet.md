@@ -1,128 +1,111 @@
-{
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "carcass": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-Carcass",
-      "@type": "@id",
-      "type": "string",
-      "format": "uri",
-      "dldescription": "Url to get Animal Killsheet data",
-      "dltype": "https://www.datalinker.org/context/CarcassData"
-    },
-    "transactionId": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-TransactionId",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Unique identifier for the transaction in the source system"
-    },
-    "lineId": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-LineId",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Identifies the transaction line in the source system"
-    },
-    "dateReceived": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-DateReceived",
-      "@type": "xsd:date",
-      "type": "string",
-      "dldescription": "Date on which the animals were received by the processor"
-    },
-    "dateProcessed": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-DateProcessed",
-      "@type": "xsd:date",
-      "type": "string",
-      "dldescription": "Date on which the animals were processed"
-    },
-    "reference": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-Reference",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "A reference code such as an invoice number or purchase order number. Sometimes called 'Line' or 'Reference' or 'Advice Number'"
-    },
-    "location": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-Location",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Location of the farm from which the animals have been sent"
-    },
-    "otherPartyContact": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-OtherPartyContact",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Name, short form contact details of supplier/receiver (in this instance Farmer or Producer.). Only intended for reference, not e-commerce"
-    },
-    "otherPartyId": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-OtherPartyId",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "An identifier of another party within the source system (in this instance the Producer Location)"
-    },
-    "processorName": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-ProcessorName",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Meat processor ID or name"
-    },
-    "plantName": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-PlantName",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "ID or name of plant where animal is killed"
-    },
-    "plantId": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-PlantId",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "URN identifier of Plant Location"
-    },
-    "quantity": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-Quantity",
-      "@type": "xsd:decimal",
-      "type": "number",
-      "dldescription": "Number of animals handled in the transaction"
-    },
-    "speciesCommonName": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-SpeciesCommonName",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Common term for species. Enumeration: Cattle, Deer, Goats, Sheep"
-    },
-    "stockClassName": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-StockClassName",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Text name of the stock class"
-    },
-    "scheduleName": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-ScheduleName",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Schedule Name"
-    },
-    "scheduleId": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-ScheduleId",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Schedule Id"
-    },
-    "mobId": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-MobId",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Unique identifier that represents the line of animals being killed"
-    },
-    "groupName": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-GroupName",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "Name of the group within the processor's location"
-    },
-    "eASDReference": {
-      "@id": "https://www.datalinker.org/context/CarcassKillsheet-eASDReference",
-      "@type": "xsd:string",
-      "type": "string",
-      "dldescription": "A reference code to the relavent movement document used to officially declare the animal movement, e.g. Animal Status Declaration for New Zealand"
-    }
-  }
-}
+Type: `object`
+
+<i id="#">path: #</i>
+
+&#36;schema: [http://json-schema.org/draft-04/schema#](http://json-schema.org/draft-04/schema#)
+
+**_Properties_**
+
+ - <b id="#/properties/carcass">carcass</b>
+	 - _Url to get Animal Killsheet data_
+	 - Type: `string`
+	 - <i id="#/properties/carcass">path: #/properties/carcass</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-carcass">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-Carcass</b>
+	 - String format must be a "uri"
+ - <b id="#/properties/transactionId">transactionId</b>
+	 - _Unique identifier for the transaction in the source system_
+	 - Type: `string`
+	 - <i id="#/properties/transactionId">path: #/properties/transactionId</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-transactionid">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-TransactionId</b>
+ - <b id="#/properties/lineId">lineId</b>
+	 - _Identifies the transaction line in the source system_
+	 - Type: `string`
+	 - <i id="#/properties/lineId">path: #/properties/lineId</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-lineid">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-LineId</b>
+ - <b id="#/properties/dateReceived">dateReceived</b>
+	 - _Date on which the animals were received by the processor_
+	 - Type: `string`
+	 - <i id="#/properties/dateReceived">path: #/properties/dateReceived</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-datereceived">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-DateReceived</b>
+ - <b id="#/properties/dateProcessed">dateProcessed</b>
+	 - _Date on which the animals were processed_
+	 - Type: `string`
+	 - <i id="#/properties/dateProcessed">path: #/properties/dateProcessed</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-dateprocessed">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-DateProcessed</b>
+ - <b id="#/properties/reference">reference</b>
+	 - _A reference code such as an invoice number or purchase order number. Sometimes called 'Line' or 'Reference' or 'Advice Number'_
+	 - Type: `string`
+	 - <i id="#/properties/reference">path: #/properties/reference</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-reference">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-Reference</b>
+ - <b id="#/properties/location">location</b>
+	 - _Location of the farm from which the animals have been sent_
+	 - Type: `string`
+	 - <i id="#/properties/location">path: #/properties/location</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-location">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-Location</b>
+ - <b id="#/properties/otherPartyContact">otherPartyContact</b>
+	 - _Name, short form contact details of supplier/receiver (in this instance Farmer or Producer.). Only intended for reference, not e-commerce_
+	 - Type: `string`
+	 - <i id="#/properties/otherPartyContact">path: #/properties/otherPartyContact</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-otherpartycontact">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-OtherPartyContact</b>
+ - <b id="#/properties/otherPartyId">otherPartyId</b>
+	 - _An identifier of another party within the source system (in this instance the Producer Location)_
+	 - Type: `string`
+	 - <i id="#/properties/otherPartyId">path: #/properties/otherPartyId</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-otherpartyid">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-OtherPartyId</b>
+ - <b id="#/properties/processorName">processorName</b>
+	 - _Meat processor ID or name_
+	 - Type: `string`
+	 - <i id="#/properties/processorName">path: #/properties/processorName</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-processorname">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-ProcessorName</b>
+ - <b id="#/properties/plantName">plantName</b>
+	 - _ID or name of plant where animal is killed_
+	 - Type: `string`
+	 - <i id="#/properties/plantName">path: #/properties/plantName</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-plantname">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-PlantName</b>
+ - <b id="#/properties/plantId">plantId</b>
+	 - _URN identifier of Plant Location_
+	 - Type: `string`
+	 - <i id="#/properties/plantId">path: #/properties/plantId</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-plantid">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-PlantId</b>
+ - <b id="#/properties/quantity">quantity</b>
+	 - _Number of animals handled in the transaction_
+	 - Type: `number`
+	 - <i id="#/properties/quantity">path: #/properties/quantity</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-quantity">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-Quantity</b>
+ - <b id="#/properties/speciesCommonName">speciesCommonName</b>
+	 - _Common term for species. Enumeration: Cattle, Deer, Goats, Sheep_
+	 - Type: `string`
+	 - <i id="#/properties/speciesCommonName">path: #/properties/speciesCommonName</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-speciescommonname">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-SpeciesCommonName</b>
+ - <b id="#/properties/stockClassName">stockClassName</b>
+	 - _Text name of the stock class_
+	 - Type: `string`
+	 - <i id="#/properties/stockClassName">path: #/properties/stockClassName</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-stockclassname">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-StockClassName</b>
+ - <b id="#/properties/scheduleName">scheduleName</b>
+	 - _Schedule Name_
+	 - Type: `string`
+	 - <i id="#/properties/scheduleName">path: #/properties/scheduleName</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-schedulename">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-ScheduleName</b>
+ - <b id="#/properties/scheduleId">scheduleId</b>
+	 - _Schedule Id_
+	 - Type: `string`
+	 - <i id="#/properties/scheduleId">path: #/properties/scheduleId</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-scheduleid">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-ScheduleId</b>
+ - <b id="#/properties/mobId">mobId</b>
+	 - _Unique identifier that represents the line of animals being killed_
+	 - Type: `string`
+	 - <i id="#/properties/mobId">path: #/properties/mobId</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-mobid">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-MobId</b>
+ - <b id="#/properties/groupName">groupName</b>
+	 - _Name of the group within the processor's location_
+	 - Type: `string`
+	 - <i id="#/properties/groupName">path: #/properties/groupName</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-groupname">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-GroupName</b>
+ - <b id="#/properties/eASDReference">eASDReference</b>
+	 - _A reference code to the relavent movement document used to officially declare the animal movement, e.g. Animal Status Declaration for New Zealand_
+	 - Type: `string`
+	 - <i id="#/properties/eASDReference">path: #/properties/eASDReference</i>
+	 - <b id="httpswww.datalinker.orgcontextcarcasskillsheet-easdreference">&#36;id: https://www.datalinker.org/context/CarcassKillsheet-eASDReference</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
