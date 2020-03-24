@@ -1,12 +1,12 @@
 **_Properties_**
 
  - <b id="#/properties/suppliers">suppliers</b>
-	 - Description: Lists and provides details of the suppliers_
-	 - Type: `array`
+	 - **Description:** Lists and provides details of the suppliers
+	 - **Type:** `array`
 	 - <b id="httpswww.datalinker.orgcontextcarcasssupplier">Link to sub-property: https://www.datalinker.org/context/CarcassSupplier</b>
  - <b id="#/properties/organization">organization</b>
-	 - _ Description: Url to get information about provider organization_
-	 - Type: `string`
+	 - **Description:** Url to get information about provider organization
+	 - **Type:** `string`
 	 - <b id="httpswww.datalinker.orgcontextanimalcarcass-organization">Link to sub-property: https://www.datalinker.org/context/AnimalCarcass-Organization</b>
 	 - <b id="httpswww.datalinker.orgcontextorganization">Link to sub-property: https://www.datalinker.org/context/Organization</b>
 
