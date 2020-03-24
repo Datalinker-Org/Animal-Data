@@ -1,7 +1,7 @@
 **_Properties_**
 
  - <b id="#/properties/suppliers">suppliers</b>
-	 - _ Description: Lists and provides details of the suppliers_
+	 - Description: Lists and provides details of the suppliers_
 	 - Type: `array`
 	 - <b id="httpswww.datalinker.orgcontextcarcasssupplier">Link to sub-property: https://www.datalinker.org/context/CarcassSupplier</b>
  - <b id="#/properties/organization">organization</b>
