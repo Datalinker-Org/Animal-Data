@@ -3,7 +3,7 @@
  - <b id="#/properties/suppliers">suppliers</b>
 	 - **Description:** Lists and provides details of the suppliers
 	 - **Type:** `array`
-	 - **Link to sub-property:** [CarcassSupplier](CarCarcass/CarcassSupplier.json)
+	 - **Link to sub-property:** [CarcassSupplier](Carcass/CarcassSupplier.json)
  - <b id="#/properties/organization">organization</b>
 	 - **Description:** Url to get information about provider organization
 	 - **Type:** `string`
