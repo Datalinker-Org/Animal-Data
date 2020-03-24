@@ -1,7 +1,3 @@
-Type: `object`
-
-&#36;schema: [http://json-schema.org/draft-04/schema#](http://json-schema.org/draft-04/schema#)
-
 **_Properties_**
 
  - <b id="#/properties/suppliers">suppliers</b>
