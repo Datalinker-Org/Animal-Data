@@ -1,5 +1,3 @@
-**_Properties_**
-
  - <b id="#/properties/suppliers">suppliers</b>
 	 - **Description:** Lists and provides details of the suppliers
 	 - **Type:** `array`
