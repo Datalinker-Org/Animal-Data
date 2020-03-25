@@ -1,1 +1,18 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"assessmentGroup":{"@id":"http://www.datalinker.org/context/CarcassAssessment-AssessmentGroup","@type":"xsd:string","type":"string","dldescription":"Assessment Category E.g. Visual Stock Presentation, Carcass Presentation"},"assessmentName":{"@id":"http://www.datalinker.org/context/CarcassAssessment-AssessmentName","@type":"xsd:string","type":"string","dldescription":"Assessment Name"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "assessmentGroup": {
+      "@id": "[AssessmentGroup](#AssessmentGroup)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Assessment Category E.g. Visual Stock Presentation, Carcass Presentation"
+    },
+    "assessmentName": {
+      "@id": "[AssessmentName](#AssessmentName)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Assessment Name"
+    }
+  }
+}
