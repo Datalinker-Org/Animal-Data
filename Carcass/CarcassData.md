@@ -1,5 +1,3 @@
-**_Properties_**
-
  - <b id="#/properties/animalIdentifiers">animalIdentifiers</b>
 	 - **Description:** URN identifier of an externally meaningful ID such as birthTag,currentTag, birthHerdCode etc
 	 - **Type:** `array`
@@ -88,7 +86,6 @@
 	 - **Description:** Describes details about the meat yield
 	 - **Type:** `object`
 	 - <b id="carcassyieldcarcassyield.md">Link to property: [CarcassYield](CarcassYield.md)</b>
-	 - **_Properties_**
  - <b id="#/properties/faults">faults</b>
 	 - **Description:** Describes primary faults in the carcass assessed by the processor
 	 - **Type:** `array`
