@@ -1,6 +1,6 @@
 # Carcass Schemas
 
-Property data | JSON Schema
+Property descriptions | JSON Schema
 ------------ | -------------
 [AnimalCarcass.md](AnimalCarcass.md)|[AnimalCarcass.json](AnimalCarcass.json)
 [CarcassAssessment.md](CarcassAssessment.md)|[CarcassAssessment.json](CarcassAssessment.json)

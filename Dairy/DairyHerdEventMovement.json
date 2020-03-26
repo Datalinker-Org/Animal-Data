@@ -3,55 +3,55 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the herd movement event"
     },
     "dairyHerdEventId": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-dairyHerdEventId",
+      "@id": "[dairyHerdEventId](#dairyHerdEventId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "herd event id that this movement event is part of"
     },
     "typeOfMovement": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-typeOfMovement",
+      "@id": "[typeOfMovement](#typeOfMovement)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Type of movement either Arrival or Departure"
     },
     "date": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-date",
+      "@id": "[date](#date)",
       "@type": "xsd:dateTime",
       "type": "string",
       "dldescription": "The date the movement event occured"
     },
     "farmId": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-farmId",
+      "@id": "[farmId](#farmId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the Farm used in the movement event"
     },
     "holdingPlace": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-holdingPlace",
+      "@id": "[holdingPlace](#holdingPlace)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Government Id for the barn to which the animal arrives"
     },
     "locationId": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-locationId",
+      "@id": "[locationId](#locationId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Identification of the herd from which the animals have been transferred from"
     },
     "ownerType": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-ownerType",
+      "@id": "[ownerType](#ownerType)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The type of the previous owner (Farm, Agent, Ministry Customer)"
     },
     "transferCause": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMovement-transferCause",
+      "@id": "[transferCause](#transferCause)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "the cause/reason for transfer of the animals"

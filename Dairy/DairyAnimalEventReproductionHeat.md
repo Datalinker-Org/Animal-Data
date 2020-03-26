@@ -1,0 +1,30 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the animal event
+	 - **Type:** `string`
+	 - <b id="idid">Link to property: [id](#id)</b>
+ - <b id="#/properties/animalId">animalId</b>
+	 - **Description:** Unique Id of the related animal
+	 - **Type:** `string`
+	 - <b id="animalidanimalid">Link to property: [animalId](#animalId)</b>
+ - <b id="#/properties/herdEventId">herdEventId</b>
+	 - **Description:** Unique Id of the related herd event
+	 - **Type:** `string`
+	 - <b id="herdeventidherdeventid">Link to property: [herdEventId](#herdEventId)</b>
+ - <b id="#/properties/heatCode">heatCode</b>
+	 - **Description:** Code for the heat event from (https://test.nordiccdx.com/Help/Codeset?name=HEAT_CODE)
+	 - **Type:** `string`
+	 - <b id="heatcodeheatcode">Link to property: [heatCode](#heatCode)</b>
+ - <b id="#/properties/heatAddCode">heatAddCode</b>
+	 - **Description:** Additional code for the heat event from (https://test.nordiccdx.com/Help/Codeset?name=HEAT_ADD_CODE)
+	 - **Type:** `string`
+	 - <b id="heataddcodeheataddcode">Link to property: [heatAddCode](#heatAddCode)</b>
+ - <b id="#/properties/heatDetectionAccuracy">heatDetectionAccuracy</b>
+	 - **Description:** What is the accuracy of the detection
+	 - **Type:** `number`
+	 - <b id="heatdetectionaccuracyheatdetectionaccuracy">Link to property: [heatDetectionAccuracy](#heatDetectionAccuracy)</b>
+ - <b id="#/properties/heatDetectionMethod">heatDetectionMethod</b>
+	 - **Description:** What is the used method fo heat (Chemical, Visual etc.)
+	 - **Type:** `string`
+	 - <b id="heatdetectionmethodheatdetectionmethod">Link to property: [heatDetectionMethod](#heatDetectionMethod)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

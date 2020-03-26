@@ -3,43 +3,43 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the animal event"
     },
     "animalId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-animalId",
+      "@id": "[animalId](#animalId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related animal"
     },
     "herdEventId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-herdEventId",
+      "@id": "[herdEventId](#herdEventId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related herd event"
     },
     "heatCode": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-heatCode",
+      "@id": "[heatCode](#heatCode)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Code for the heat event from (https://test.nordiccdx.com/Help/Codeset?name=HEAT_CODE)"
     },
     "heatAddCode": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-heatAddCode",
+      "@id": "[heatAddCode](#heatAddCode)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Additional code for the heat event from (https://test.nordiccdx.com/Help/Codeset?name=HEAT_ADD_CODE)"
     },
     "heatDetectionAccuracy": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-heatDetectionAccuracy",
+      "@id": "[heatDetectionAccuracy](#heatDetectionAccuracy)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "What is the accuracy of the detection"
     },
     "heatDetectionMethod": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionHeat-heatDetectionMethod",
+      "@id": "[heatDetectionMethod](#heatDetectionMethod)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "What is the used method fo heat (Chemical, Visual etc.)"

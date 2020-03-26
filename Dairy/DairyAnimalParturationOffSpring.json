@@ -3,145 +3,145 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the Parturation OffSpring event"
     },
     "animalId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-animalId",
+      "@id": "[animalId](#animalId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related animal"
     },
     "anomalias": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-anomalias",
+      "@id": "[anomalias](#anomalias)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Possible malformations/abnormalities of the calf (Yes, No, Unknown)"
     },
     "anomaliasExplanation": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-anomaliasExplanation",
+      "@id": "[anomalias](#anomalias)Explanation",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Explanation of the abnormality (Not Defined, General Malformation, Head Malformed, etc(https://test.nordiccdx.com/Help/Codeset?name=CALF_ANOMALIAS_EXP))"
     },
     "birthSize": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-birthSize",
+      "@id": "[birthSize](#birthSize)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The size of the born calf (Small, Almost average, Above average, Big)"
     },
     "birthStatus": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-birthStatus",
+      "@id": "[birthStatus](#birthStatus)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Status of the calf after birth (Unknown, Live calf, Abortion, Stillborn, etc(https://test.nordiccdx.com/Help/Codeset?name=CALF_BIRTH_STATUS))"
     },
     "breed": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-breed",
+      "@id": "[breed](#breed)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Breed of the calf (Unknown, Ayrshire, Holstein, BrownSwiss, Hereford, etc(https://test.nordiccdx.com/Help/Codeset?name=BREED))"
     },
     "carcassRemoval": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-carcassRemoval",
+      "@id": "[carcassRemoval](#carcassRemoval)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "How the dead calf was disposed of (Unknown, Burn, Carcass, Burial, Carcass Collection, Other)"
     },
     "childObjectId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-childObjectId",
+      "@id": "[childObjectId](#childObjectId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Id of inner object, unique per parent event"
     },
     "deathDate": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-deathDate",
+      "@id": "[deathDate](#deathDate)",
       "@type": "xsd:dateTime",
       "type": "string",
       "dldescription": "Date of death of calf"
     },
     "earNumber": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-earNumber",
+      "@id": "[earNumber](#earNumber)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": "Ear number of the calf"
     },
     "gender": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-gender",
+      "@id": "[gender](#gender)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The gender of the calf (Male, Female, Unknown)"
     },
     "geneticDamId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-geneticDamId",
+      "@id": "[geneticDamId](#geneticDamId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Id of the genetic dam (different from carrier with embryos)"
     },
     "geneticManipulation": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-geneticManipulation",
+      "@id": "[geneticManipulation](#geneticManipulation)",
       "@type": "xsd:boolean",
       "type": "boolean",
       "dldescription": "Is the calf geneticly manipulated (True or False)"
     },
     "geneticSireId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-geneticSireId",
+      "@id": "[geneticSireId](#geneticSireId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Id of the Sire"
     },
     "hornStatus": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-hornStatus",
+      "@id": "[hornStatus](#hornStatus)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Horned state of calf (Polled, Horned, Unknown)"
     },
     "markingDate": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-markingDate",
+      "@id": "[markingDate](#markingDate)",
       "@type": "xsd:dateTime",
       "type": "string",
       "dldescription": "Date of earmarking of calf"
     },
     "name": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-name",
+      "@id": "[name](#name)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Name of the calf"
     },
     "price": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-price",
+      "@id": "[price](#price)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": "Price of the calf"
     },
     "shortName": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-shortName",
+      "@id": "[shortName](#shortName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Short name of the calf"
     },
     "sireBreed": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-sireBreed",
+      "@id": "[sireBreed](#sireBreed)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Breed of the sire (Unknown, Ayrshire, Holstein, BrownSwiss, Hereford, etc(https://test.nordiccdx.com/Help/Codeset?name=BREED))"
     },
     "sireHerdBookNumber": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-sireBreedBookNumber",
+      "@id": "[sireBreed](#sireBreed)BookNumber",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Herd Book Number of the sire"
     },
     "useMode": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-useMode",
+      "@id": "[useMode](#useMode)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Usage of the calf (Unknown, Dairy, Suckler, Meat production, Breeding animal, Test animal, Other)"
     },
     "weight": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalParturationOffSpring-weight",
+      "@id": "[weight](#weight)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": "Weight of the calf"

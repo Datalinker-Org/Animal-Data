@@ -8,7 +8,7 @@
       "type": "string",
       "format": "uri",
       "dldescription": "Url to get Animal Killsheet data",
-      "dltype": "https://www.datalinker.org/context/CarcassData"
+      "dltype": "[CarcassData](CarcassData.md)"
     },
     "transactionId": {
       "@id": "[TransactionId](#TransactionId)",

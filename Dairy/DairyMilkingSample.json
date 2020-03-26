@@ -3,85 +3,85 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the Milking Sample"
     },
     "acetone": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-acetone",
+      "@id": "[acetone](#acetone)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Acetone (mmol/l)"
     },
     "avgCond": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-avgCond",
+      "@id": "[avgCond](#avgCond)",
       "@type": "xsd:decimal",
       "type": "number",
-      "dldescription": "Average conductivity value of the milk at 25�C (mS/cm)"
+      "dldescription": "Average conductivity value of the milk at 25C (mS/cm)"
     },
     "brb": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-brb",
+      "@id": "[brb](#brb)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Beta hydroxybutyrate (mmol/l)"
     },
     "blood": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-blood",
+      "@id": "[blood](#blood)",
       "@type": "xsd:boolean",
       "type": "boolean",
       "dldescription": "Was there blood (True or False)"
     },
     "ecmMilk": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-ecmMilk",
+      "@id": "[ecmMilk](#ecmMilk)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": "Energy corrected milk yield per day (kg)"
     },
     "fat": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-fat",
+      "@id": "[fat](#fat)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Fat (percentage)"
     },
     "lac": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-lac",
+      "@id": "[lac](#lac)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Lactose (percentage)"
     },
     "ldh": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-ldh",
+      "@id": "[ldh](#ldh)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Lactate dehydrogenase (IU/l)"
     },
     "maxCond": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-maxCond",
+      "@id": "[maxCond](#maxCond)",
       "@type": "xsd:decimal",
       "type": "number",
-      "dldescription": "Maximum conductivity value of the milk at 25�C (mS/cm)"
+      "dldescription": "Maximum conductivity value of the milk at 25C (mS/cm)"
     },
     "pro": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-pro",
+      "@id": "[pro](#pro)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Progesteron (mmol/l)"
     },
     "protien": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-protien",
+      "@id": "[pro](#pro)tien",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "Value for Protein (percentage)"
     },
     "scc": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-scc",
+      "@id": "[scc](#scc)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": "Value for Somatic cell count (x1000 cells/ml)"
     },
     "urea": {
-      "@id": "https://www.datalinker.org/context/DairyMilkingSample-urea",
+      "@id": "[urea](#urea)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": "Value for Urea (ppm, mg/l)"

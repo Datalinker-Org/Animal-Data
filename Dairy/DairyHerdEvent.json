@@ -3,19 +3,19 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEvent-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the event"
     },
     "date": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEvent-date",
+      "@id": "[date](#date)",
       "@type": "xsd:dateTime",
       "type": "string",
       "dldescription": "The date the event occured"
     },
     "identifiers": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEvent-identifiers",
+      "@id": "[id](#id)entifiers",
       "@container": "@set",
       "@type": "xsd:string",
       "type": "array",
@@ -23,13 +23,13 @@
       "dldescription": "The list of globally unique animal identifiers invloved in the event"
     },
     "eventType": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEvent-eventType",
+      "@id": "[eventType](#eventType)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The type of Event this is (Reproduction, Milking, Movement, Weigh)"
     },
     "content": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEvent-content",
+      "@id": "[content](#content)",
       "@type": "xsd:object",
       "type": "string",
       "dldescription": "The class specified by event type eg.(Reproduction, Milking, Movement, Weigh)"

@@ -3,25 +3,25 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMilking-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the herd milking event"
     },
     "dairyHerdEventId": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMilking-dairyHerdEventId",
+      "@id": "[dairyHerdEventId](#dairyHerdEventId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "herd event id that this milking event is part of"
     },
     "milkingMode": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMilking-milkingMode",
+      "@id": "[milkingMode](#milkingMode)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The method of milking (Manual or Robotic)"
     },
     "sampleBatchIds": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMilking-sampleBatchIds",
+      "@id": "[sampleBatchIds](#sampleBatchIds)",
       "@container": "@set",
       "@type": "xsd:string",
       "type": "array",
@@ -29,7 +29,7 @@
       "dldescription": "The list of samples ids that were taken during the milking event"
     },
     "sampleMethod": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEventMilking-sampleMethod",
+      "@id": "[sampleMethod](#sampleMethod)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The method of sampling"

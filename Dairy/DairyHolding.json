@@ -3,21 +3,21 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyHolding-Id",
+      "@id": "[Id](#Id)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
       "dldescription": "Unique identifier in the source system"
     },
     "identifiers": {
-      "@id": "https://www.datalinker.org/context/DairyHolding-Identifiers",
+      "@id": "[Id](#Id)entifiers",
       "@type": "xsd:string",
       "type": "string",
       "@contaner": "@set",
       "dldescription": "Array of unique URN identifiers"
     },
     "name": {
-      "@id": "https://www.datalinker.org/context/DairyHolding-Name",
+      "@id": "[Name](#Name)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Display name for the holding"

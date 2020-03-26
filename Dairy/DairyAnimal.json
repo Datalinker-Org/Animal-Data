@@ -3,22 +3,22 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyAnimal-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the animal"
     },
     "animal": {
-      "@id": "https://www.datalinker.org/context/DairyAnimal-animal",
+      "@id": "[animal](#animal)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
-      "dldescription": "Url to animal details (https://www.datalinker.org/context/Animal)"
+      "dldescription": "Url to animal details [Animal](Merits_Traits_and_Sessions/Animal.md)"
     },
     "animalEvents": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEvent",
+      "@id": "[DairyAnimalEvent](DairyAnimalEvent.md)",
       "@container": "@set",
-      "@type": "http://www.datalinker.org/contexts/2.0/DairyAnimalEvent.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "dldescription": "The list of animal related events"

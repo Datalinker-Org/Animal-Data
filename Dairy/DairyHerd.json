@@ -3,13 +3,13 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyHerd-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Primary Id of the herd"
     },
     "identifiers": {
-      "@id": "https://www.datalinker.org/context/DairyHerd-Identifiers",
+      "@id": "[id](#id)entifiers",
       "@container": "@set",
       "@type": "xsd:string",
       "type": "array",
@@ -17,29 +17,29 @@
       "dldescription": "One or more globally unique herd identifiers"
     },
     "name": {
-      "@id": "https://www.datalinker.org/context/DairyHerd-Name",
+      "@id": "[Name](#Name)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Name of the herd"
     },
     "holding": {
-      "@id": "https://www.datalinker.org/context/DairyHolding",
-      "@type": "http://www.datalinker.org/contexts/2.0/DairyHolding.jsonld",
+      "@id": "[DairyHolding](DairyHolding.md)",
+      "@type": "@id",
       "type": "object",
       "dldescription": "The Holding this herd is associated with"
     },
     "herdEvents": {
-      "@id": "https://www.datalinker.org/context/DairyHerdEvent",
+      "@id": "[DairyHerdEvent](DairyHerdEvent.md)",
       "@container": "@set",
-      "@type": "http://www.datalinker.org/contexts/2.0/DairyHerdEvent.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "dldescription": "The list of herd related events"
     },
     "animals": {
-      "@id": "https://www.datalinker.org/context/DairyAnimal",
+      "@id": "[DairyAnimal](DairyAnimal.md)",
       "@container": "@set",
-      "@type": "http://www.datalinker.org/contexts/2.0/DairyAnimal.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "dldescription": "The list of animals that are contianed in this herd"

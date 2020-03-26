@@ -3,31 +3,31 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionPregnancyCheck-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the animal event"
     },
     "animalId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionPregnancyCheck-animalId",
+      "@id": "[animalId](#animalId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related animal"
     },
     "herdEventId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionPregnancyCheck-herdEventId",
+      "@id": "[herdEventId](#herdEventId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related herd event"
     },
     "pregnancyCheckMethod": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionPregnancyCheck-pregnancyCheckMethod",
+      "@id": "[pregnancyCheckMethod](#pregnancyCheckMethod)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Method used for the pregnancy check (Rectal, Progesterone Test, Ultrasound, etc)"
     },
     "pregnancyCheckResult": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionPregnancyCheck-pregnancyCheckResult",
+      "@id": "[pregnancyCheckResult](#pregnancyCheckResult)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Results of the pregnancy check (Not Pregnant, Pregnant, Unclear, Aborted)"

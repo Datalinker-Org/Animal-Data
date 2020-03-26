@@ -3,25 +3,25 @@
   "type": "object",
   "properties": {
     "id": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionDryingOff-id",
+      "@id": "[id](#id)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the animal event"
     },
     "animalId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionDryingOff-animalId",
+      "@id": "[animalId](#animalId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related animal"
     },
     "herdEventId": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionDryingOff-herdEventId",
+      "@id": "[herdEventId](#herdEventId)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique Id of the related herd event"
     },
     "isDryingOff": {
-      "@id": "https://www.datalinker.org/context/DairyAnimalEventReproductionDryingOff-isDryingOff",
+      "@id": "[isDryingOff](#isDryingOff)",
       "@type": "xsd:boolean",
       "type": "boolean",
       "dldescription": "Is the animal drying off"
