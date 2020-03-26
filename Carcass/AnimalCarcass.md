@@ -6,6 +6,6 @@
 	 - **Description:** Url to get information about provider organization
 	 - **Type:** `string`
 	 - <b id="organizationorganization">Link to property: [Organization](#Organization)</b>
-	 - <b id="httpswww.datalinker.orgcontextorganization">Link to schema: https://www.datalinker.org/context/Organization</b>
+	 - <b id="httpswww.datalinker.orgcontextorganization">Link to schema: [Organization](Shared/Organization.md)</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
