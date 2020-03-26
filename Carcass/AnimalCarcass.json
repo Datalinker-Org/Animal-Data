@@ -16,7 +16,7 @@
       "type": "string",
       "format": "uri",
       "dldescription": "Url to get information about provider organization",
-      "dltype": "https://www.datalinker.org/context/Organization"
+      "dltype": "https://github.com/Datalinker-Org/Shared/blob/master/Organization.md"
     }
   }
 }

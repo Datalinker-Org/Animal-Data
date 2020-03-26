@@ -1,1 +1,34 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"herdCodes":{"@id":"http://www.datalinker.org/context/Herd-HerdCodes","@type":"xsd:string","type":"array","items":{"type":"string"},"@container":"@set","dldescription":"URN identifier for the herd of the animal. e.g.urn:nzl:pri:animal:sil:<herdstring>"},"herdName":{"@id":"http://www.datalinker.org/context/Herd-HerdName","@type":"xsd:string","type":"string","dldescription":"Name of the herd"},"speciesCommonName":{"@id":"http://www.datalinker.org/context/Herd-SpeciesCommonName","@type":"xsd:string","type":"string","dldescription":"Common term for species. Enumeration values: Cattle, Deer, Goats, Sheep"},"contactPerson":{"@id":"http://www.datalinker.org/context/ContactPoint","@type":"http://www.datalinker.org/contexts/2.0/ContactPoint.jsonld","type":"array","items":{"type":"object"},"@container":"@set","dldescription":"Contact of the person in charge of the herd"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "herdCodes": {
+      "@id": "http://www.datalinker.org/context/Herd-HerdCodes",
+      "@type": "xsd:string",
+      "type": "array",
+      "items": { "type": "string" },
+      "@container": "@set",
+      "dldescription": "URN identifier for the herd of the animal. e.g.urn:nzl:pri:animal:sil:<herdstring>"
+    },
+    "herdName": {
+      "@id": "http://www.datalinker.org/context/Herd-HerdName",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Name of the herd"
+    },
+    "speciesCommonName": {
+      "@id": "http://www.datalinker.org/context/Herd-SpeciesCommonName",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Common term for species. Enumeration values: Cattle, Deer, Goats, Sheep"
+    },
+    "contactPerson": {
+      "@id": "http://www.datalinker.org/context/ContactPoint",
+      "@type": "http://www.datalinker.org/contexts/2.0/ContactPoint.jsonld",
+      "type": "array",
+      "items": { "type": "object" },
+      "@container": "@set",
+      "dldescription": "Contact of the person in charge of the herd"
+    }
+  }
+}

@@ -1,1 +1,22 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"herdCodes":{"@id":"http://www.datalinker.org/context/MeritHerd-HerdCodes","@type":"xsd:string","type":"array","items":{"type":"string"},"@container":"@list","dldescription":"URN identifier for the herd of the animal e.g. urn:nzl:pri:animal:sil:<herdstring>"},"herdMeritValues":{"@id":"http://www.datalinker.org/context/MeritHerd-HerdMeritValues","@type":"@id","type":"string","format":"uri","dldescription":"An estimate of an animal's merit index for a trait","dltype":"http://www.datalinker.org/context/MeritValue"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "herdCodes": {
+      "@id": "http://www.datalinker.org/context/MeritHerd-HerdCodes",
+      "@type": "xsd:string",
+      "type": "array",
+      "items": { "type": "string" },
+      "@container": "@list",
+      "dldescription": "URN identifier for the herd of the animal e.g. urn:nzl:pri:animal:sil:<herdstring>"
+    },
+    "herdMeritValues": {
+      "@id": "http://www.datalinker.org/context/MeritHerd-HerdMeritValues",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": "An estimate of an animal's merit index for a trait",
+      "dltype": "http://www.datalinker.org/context/MeritValue"
+    }
+  }
+}

@@ -1,1 +1,18 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"animalLifeData":{"@id":"http://www.datalinker.org/context/AnimalLifeData","@type":"http://www.datalinker.org/contexts/2.0/AnimalLifeData.jsonld","type":"object","dldescription":"This object describes the animal life attributes that typically do not change over the lifetime of the animal"},"organization":{"@id":"http://www.datalinker.org/context/Organization","@type":"http://www.datalinker.org/contexts/2.0/Organization.jsonld","type":"object","dldescription":"This object describes the company or organization the farm has been registered as"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "animalLifeData": {
+      "@id": "http://www.datalinker.org/context/AnimalLifeData",
+      "@type": "http://www.datalinker.org/contexts/2.0/AnimalLifeData.jsonld",
+      "type": "object",
+      "dldescription": "This object describes the animal life attributes that typically do not change over the lifetime of the animal"
+    },
+    "organization": {
+      "@id": "http://www.datalinker.org/context/Organization",
+      "@type": "http://www.datalinker.org/contexts/2.0/Organization.jsonld",
+      "type": "object",
+      "dldescription": "This object describes the company or organization the farm has been registered as"
+    }
+  }
+}

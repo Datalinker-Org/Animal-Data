@@ -1,1 +1,25 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"herdCodes":{"@id":"http://www.datalinker.org/context/BVHerd-HerdCodes","@container":"@list","dldescription":""},"herdBreedingValues":{"@id":"http://www.datalinker.org/context/BVHerd-HerdBVs","@type":"@id","type":"string","format":"uri","dldescription":""},"herdIndexValues":{"@id":"http://www.datalinker.org/context/BVHerd-HerdIndexes","@type":"@id","type":"string","format":"uri","dldescription":""}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "herdCodes": {
+      "@id": "http://www.datalinker.org/context/BVHerd-HerdCodes",
+      "@container": "@list",
+      "dldescription": ""
+    },
+    "herdBreedingValues": {
+      "@id": "http://www.datalinker.org/context/BVHerd-HerdBVs",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": ""
+    },
+    "herdIndexValues": {
+      "@id": "http://www.datalinker.org/context/BVHerd-HerdIndexes",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": ""
+    }
+  }
+}

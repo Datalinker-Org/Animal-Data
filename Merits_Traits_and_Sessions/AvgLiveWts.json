@@ -1,1 +1,18 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"weight":{"@id":"https://www.datalinker.org/context/AvgLiveWts#weight","@type":"xsd:number","type":"integer","dldescription":"Herd average live weight in Kg."},"season":{"@id":"https://www.datalinker.org/context/AvgLiveWts#season","@type":"xsd:string","type":"string","dldescription":"Season when the weights were recorded"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "weight": {
+      "@id": "https://www.datalinker.org/context/AvgLiveWts#weight",
+      "@type": "xsd:number",
+      "type": "integer",
+      "dldescription": "Herd average live weight in Kg."
+    },
+    "season": {
+      "@id": "https://www.datalinker.org/context/AvgLiveWts#season",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Season when the weights were recorded"
+    }
+  }
+}

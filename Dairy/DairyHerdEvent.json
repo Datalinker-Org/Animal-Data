@@ -1,1 +1,38 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"id":{"@id":"https://www.datalinker.org/context/DairyHerdEvent-id","@type":"xsd:string","type":"string","dldescription":"Unique Id of the event"},"date":{"@id":"https://www.datalinker.org/context/DairyHerdEvent-date","@type":"xsd:dateTime","type":"string","dldescription":"The date the event occured"},"identifiers":{"@id":"https://www.datalinker.org/context/DairyHerdEvent-identifiers","@container":"@set","@type":"xsd:string","type":"array","items":{"type":"string"},"dldescription":"The list of globally unique animal identifiers invloved in the event"},"eventType":{"@id":"https://www.datalinker.org/context/DairyHerdEvent-eventType","@type":"xsd:string","type":"string","dldescription":"The type of Event this is (Reproduction, Milking, Movement, Weigh)"},"content":{"@id":"https://www.datalinker.org/context/DairyHerdEvent-content","@type":"xsd:object","type":"string","dldescription":"The class specified by event type eg.(Reproduction, Milking, Movement, Weigh)"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "@id": "https://www.datalinker.org/context/DairyHerdEvent-id",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the event"
+    },
+    "date": {
+      "@id": "https://www.datalinker.org/context/DairyHerdEvent-date",
+      "@type": "xsd:dateTime",
+      "type": "string",
+      "dldescription": "The date the event occured"
+    },
+    "identifiers": {
+      "@id": "https://www.datalinker.org/context/DairyHerdEvent-identifiers",
+      "@container": "@set",
+      "@type": "xsd:string",
+      "type": "array",
+      "items": { "type": "string" },
+      "dldescription": "The list of globally unique animal identifiers invloved in the event"
+    },
+    "eventType": {
+      "@id": "https://www.datalinker.org/context/DairyHerdEvent-eventType",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "The type of Event this is (Reproduction, Milking, Movement, Weigh)"
+    },
+    "content": {
+      "@id": "https://www.datalinker.org/context/DairyHerdEvent-content",
+      "@type": "xsd:object",
+      "type": "string",
+      "dldescription": "The class specified by event type eg.(Reproduction, Milking, Movement, Weigh)"
+    }
+  }
+}
