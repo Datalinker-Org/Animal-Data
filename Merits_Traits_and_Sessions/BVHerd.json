@@ -3,19 +3,19 @@
   "type": "object",
   "properties": {
     "herdCodes": {
-      "@id": "http://www.datalinker.org/context/BVHerd-HerdCodes",
+      "@id": "[HerdCodes](#HerdCodes)",
       "@container": "@list",
       "dldescription": ""
     },
     "herdBreedingValues": {
-      "@id": "http://www.datalinker.org/context/BVHerd-HerdBVs",
+      "@id": "[HerdBVs](#HerdBVs)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
       "dldescription": ""
     },
     "herdIndexValues": {
-      "@id": "http://www.datalinker.org/context/BVHerd-HerdIndexes",
+      "@id": "[HerdIndexes](#HerdIndexes)",
       "@type": "@id",
       "type": "string",
       "format": "uri",

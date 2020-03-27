@@ -1,0 +1,32 @@
+ - <b id="#/properties/currentLocation">currentLocation</b>
+	 - **Description:** Location identifier for the animal using a URN-based identification string containing namespace and unique identifier within the namespace
+	 - **Type:** `string`
+ - <b id="#/properties/currentStatus">currentStatus</b>
+	 - **Description:** Typically describes if the animal is Alive, Dead or in Transit. Also known as 'Status' in some systems. Reason for Fate should be captured as an observation
+	 - **Type:** `string`
+ - <b id="#/properties/disposalMethod">disposalMethod</b>
+	 - **Description:** Describes the disposal method for an animal that is dead. It can take the values - Home Kill, Disposed at NAIT Location, Meat processor-human consumption, Meat Prociessor-pet food, Rendering Facility
+	 - **Type:** `string`
+ - <b id="#/properties/fertilityStatus">fertilityStatus</b>
+	 - **Description:** Indicates whether an animal is known to be fertile or note, or whether it has been partly or fully neutered. For instance, a neutered cattle male is a steer, a neutered sheep male is a wether. Females of both species can be spayed. An infertile male by comparison still has testes and responds as a male, and is frequently used as a 'teaser'
+	 - **Type:** `string`
+ - <b id="#/properties/lactating">lactating</b>
+	 - **Description:** Confirms whether an animal is lactating at time of data transfer. Note this may change many times over an animal's life. It can take the values True or False
+	 - **Type:** `boolean`
+ - <b id="#/properties/reproductiveStatus">reproductiveStatus</b>
+	 - **Description:** Describes if the animal is pregnant at the time of data transfer. Note this may change many times over an animal's life. It can take the values - NULL, Cycling, Not Cycling, Pregnant, Involuting
+	 - **Type:** `string`
+ - <b id="#/properties/statusDate">statusDate</b>
+	 - **Description:** Date the fate or status last changed
+	 - **Type:** `string`
+ - <b id="#/properties/withholdingDateExport">withholdingDateExport</b>
+	 - **Description:** Describes the date resulting from export slaughter interval of a treatment. May be NULL 
+	 - **Type:** `string`
+ - <b id="#/properties/withholdingDateMeat">withholdingDateMeat</b>
+	 - **Description:** Describes the date before which an animal may not enter the food supply chain. May be NULL 
+	 - **Type:** `string`
+ - <b id="#/properties/withholdingDateMilk">withholdingDateMilk</b>
+	 - **Description:** Describes the date before which an animal may not enter the food supply chain. May be NULL 
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

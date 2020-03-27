@@ -3,22 +3,22 @@
     "type": "object",
     "properties": {
         "analysisUrl": {
-            "@id": "https://www.datalinker.org/context/MeritValue-AnalysisUrl",
+            "@id": "[AnalysisUrl](#AnalysisUrl)",
             "@type": "@id",
             "type": "string",
             "format": "uri",
             "dldescription": "Provides further information about the analysis"
         },
         "animalUrl": {
-            "@id": "https://www.datalinker.org/context/MeritValue-AnimalUrl",
+            "@id": "[AnimalUrl](#AnimalUrl)",
             "@type": "@id",
             "type": "string",
             "format": "uri",
             "dldescription": "Provides further information about the animal",
-            "dltype": "https://www.datalinker.org/context/Animal"
+            "dltype": "[Animal](Animal.md)"
         },
         "animalIdentifiers": {
-            "@id": "http://www.datalinker.org/context/AnimalIdentifiers",
+            "@id": "[AnimalIdentifiers](AnimalIdentifiers.md)",
             "@type": "@id",
             "type": "array",
             "items": {
@@ -28,51 +28,51 @@
             "dldescription": "Array of animal identifiers"
         },
         "meritDefinition": {
-            "@id": "https://www.datalinker.org/context/MeritValue-MeritDefinition",
+            "@id": "[MeritDefinition](#MeritDefinition)",
             "@type": "@id",
             "type": "string",
             "format": "uri",
             "dldescription": "Defines the merit - its name, type, unit and how it is computed",
-            "dltype": "https://www.datalinker.org/context/MeritDefinition"
+            "dltype": "[MeritDefinition](MeritDefinition.md)"
         },
         "meritShortName": {
-            "@id": "http://www.datalinker.org/context/MeritValue-MeritShortName",
+            "@id": "[MeritShortName](#MeritShortName)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Short name for the merit"
         },
         "meritType": {
-            "@id": "https://www.datalinker.org/context/MeritType",
+            "@id": "[MeritType](MeritType.md)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Indicates what type of merit it is within the provider system. Eg.In SIL it can be Breeding Value or Index, In LIC it can be BW or PW"
         },
         "value": {
-            "@id": "https://www.datalinker.org/context/MeritValue-Value",
+            "@id": "[Value](#Value)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Value for the merit"
         },
         "displayValue": {
-            "@id": "https://www.datalinker.org/context/MeritValue-DisplayValue",
+            "@id": "[DisplayValue](#DisplayValue)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Display Value for the merit"
         },
         "meritKey": {
-            "@id": "https://www.datalinker.org/context/MeritValue-MeritKey",
+            "@id": "[MeritKey](#MeritKey)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Underlying identifier for the merit value "
         },
         "accuracy": {
-            "@id": "https://www.datalinker.org/context/MeritValue-Accuracy",
+            "@id": "[Accuracy](#Accuracy)",
             "@type": "xsd:decimal",
             "type": "number",
             "dldescription": "Percentage accuracy of the reported value"
         },
         "meritID": {
-            "@id": "https://www.datalinker.org/context/MeritValue-MeritID",
+            "@id": "[MeritID](#MeritID)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "The identifier for the merit value"

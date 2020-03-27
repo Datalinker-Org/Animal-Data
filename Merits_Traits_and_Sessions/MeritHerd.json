@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "herdCodes": {
-      "@id": "http://www.datalinker.org/context/MeritHerd-HerdCodes",
+      "@id": "[HerdCodes](#HerdCodes)",
       "@type": "xsd:string",
       "type": "array",
       "items": { "type": "string" },
@@ -11,12 +11,12 @@
       "dldescription": "URN identifier for the herd of the animal e.g. urn:nzl:pri:animal:sil:<herdstring>"
     },
     "herdMeritValues": {
-      "@id": "http://www.datalinker.org/context/MeritHerd-HerdMeritValues",
+      "@id": "[HerdMeritValues](#HerdMeritValues)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
       "dldescription": "An estimate of an animal's merit index for a trait",
-      "dltype": "http://www.datalinker.org/context/MeritValue"
+      "dltype": "[MeritValue](MeritValue.md)"
     }
   }
 }

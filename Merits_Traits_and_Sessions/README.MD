@@ -1,1 +1,33 @@
+# Merits, Traits and Sessions
+
+Property descriptions | JSON Schema
+------------ | -------------
+[Analysis.md](Analysis.md)|[Analysis.json](Analysis.json)
+[Animal.md](Animal.md)|[Animal.json](Animal.json)
+[AnimalHerd.md](AnimalHerd.md)|[AnimalHerd.json](AnimalHerd.json)
+[AnimalHerdState.md](AnimalHerdState.md)|[AnimalHerdState.json](AnimalHerdState.json)
+[AnimalIdentifier.md](AnimalIdentifier.md)|[AnimalIdentifier.json](AnimalIdentifier.json)
+[AnimalIdentity.md](AnimalIdentity.md)|[AnimalIdentity.json](AnimalIdentity.json)
+[AnimalLife.md](AnimalLife.md)|[AnimalLife.json](AnimalLife.json)
+[AnimalLifeData.md](AnimalLifeData.md)|[AnimalLifeData.json](AnimalLifeData.json)
+[AnimalLocationState.md](AnimalLocationState.md)|[AnimalLocationState.json](AnimalLocationState.json)
+[AnimalMerits-Update.md](AnimalMerits-Update.md)|[AnimalMerits.json](AnimalMerits.json)
+[AnimalObservation.md](AnimalObservation.md)|[AnimalObservation.json](AnimalObservation.json)
+[AnimalParentage.md](AnimalParentage.md)|[AnimalParentage.json](AnimalParentage.json)
+[AnimalSession.md](AnimalSession.md)|[AnimalSession.json](AnimalSession.json)
+[AnimalState.md](AnimalState.md)|[AnimalState.json](AnimalState.json)
+[AnimalsTraits.md](AnimalsTraits.md)|[AnimalsTraits.json](AnimalsTraits.json)
+[AvgLiveWts.md](AvgLiveWts.md)|[AvgLiveWts.json](AvgLiveWts.json)
+[BreedDistribution.md](BreedDistribution.md)|[BreedDistribution.json](BreedDistribution.json)
+[BreedingValue.md](BreedingValue.md)|[BreedingValue.json](BreedingValue.json)
+[BVHerd.md](BVHerd.md)|[BVHerd.json](BVHerd.json)
+[BVsIndexes.md](BVsIndexes.md)|[BVsIndexes.json](BVsIndexes.json)
+[Herd.md](Herd.md)|[Herd.json](Herd.json)
+[MeritAnalysis.md](MeritAnalysis.md)|[MeritAnalysis.json](MeritAnalysis.json)
+[MeritDefinition.md](MeritDefinition.md)|[MeritDefinition.json](MeritDefinition.json)
+[MeritHerd.md](MeritHerd.md)|[MeritHerd.json](MeritHerd.json)
+[MeritValue.md](MeritValue.md)|[MeritValue.json](MeritValue.json)
+[Session.md](Session.md)|[Session.json](Session.json)
+[Trait.md](Trait.md)|[Trait.json](Trait.json)
+[TraitDefinition.md](TraitDefinition.md)|[TraitDefinition.json](TraitDefinition.json)
 

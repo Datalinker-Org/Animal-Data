@@ -3,25 +3,25 @@
     "type": "object",
     "properties": {
         "state": {
-            "@id": "https://www.datalinker.org/context/AnimalLocationState-State",
+            "@id": "[State](#State)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Indicates the time/period in the animal's life which the data represents: original (birth), current (moved), historic"
         },
         "validFrom": {
-            "@id": "https://www.datalinker.org/context/AnimalLocationState-ValidFrom",
+            "@id": "[ValidFrom](#ValidFrom)",
             "@type": "xsd:date",
             "type": "string",
             "dldescription": "Start date of the animal at the location"
         },
         "validThrough": {
-            "@id": "https://www.datalinker.org/context/AnimalLocationState-ValidThrough",
+            "@id": "[ValidThrough](#ValidThrough)",
             "@type": "xsd:date",
             "type": "string",
             "dldescription": "End date of the animal at the location"
         },
         "herdIdentifiers": {
-            "@id": "https://www.datalinker.org/context/AnimalLocationState-HerdIdentifiers",
+            "@id": "[HerdIdentifiers](#HerdIdentifiers)",
             "@type": "xsd:string",
             "type": "array",
             "items": {

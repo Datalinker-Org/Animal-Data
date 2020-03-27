@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "herdCodes": {
-      "@id": "http://www.datalinker.org/context/Herd-HerdCodes",
+      "@id": "[HerdCodes](#HerdCodes)",
       "@type": "xsd:string",
       "type": "array",
       "items": { "type": "string" },
@@ -11,19 +11,19 @@
       "dldescription": "URN identifier for the herd of the animal. e.g.urn:nzl:pri:animal:sil:<herdstring>"
     },
     "herdName": {
-      "@id": "http://www.datalinker.org/context/Herd-HerdName",
+      "@id": "[HerdName](#HerdName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Name of the herd"
     },
     "speciesCommonName": {
-      "@id": "http://www.datalinker.org/context/Herd-SpeciesCommonName",
+      "@id": "[SpeciesCommonName](#SpeciesCommonName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Common term for species. Enumeration values: Cattle, Deer, Goats, Sheep"
     },
     "contactPerson": {
-      "@id": "http://www.datalinker.org/context/ContactPoint",
+      "@id": "[ContactPoint](ContactPoint.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },

@@ -3,13 +3,13 @@
   "type": "object",
   "properties": {
     "breedName": {
-      "@id": "https://www.datalinker.org/context/BreedDistribution-BreedName",
+      "@id": "[BreedName](#BreedName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "The breed identifier of the breed"
     },
     "proportion": {
-      "@id": "https://www.datalinker.org/context/BreedDistribution-BreedProportion",
+      "@id": "[BreedProportion](#BreedProportion)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": "The proportion of the named breed in the animal"

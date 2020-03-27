@@ -3,31 +3,31 @@
   "type": "object",
   "properties": {
     "organization": {
-      "@id": "http://www.datalinker.org/context/Organization",
+      "@id": "[Organization](Organization.md)",
       "@type": "@id",
       "type": "object",
       "dldescription": "The official name or the registered name of the organization"
     },
     "sessionDate": {
-      "@id": "http://www.datalinker.org/context/Session-SessionDate",
+      "@id": "[SessionDate](#SessionDate)",
       "@type": "xsd:date",
       "type": "string",
       "dldescription": "Date on which a session of observations were recorded"
     },
     "sessionName": {
-      "@id": "http://www.datalinker.org/context/Session-SessionName",
+      "@id": "[SessionName](#SessionName)",
       "@type": "xsd:date",
       "type": "string",
       "dldescription": "Name of the recorded session"
     },
     "reference": {
-      "@id": "http://www.datalinker.org/context/Session-SessionReference",
+      "@id": "[SessionReference](#SessionReference)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Indicates the session reference"
     },
     "herdCodes": {
-      "@id": "http://www.datalinker.org/context/Session-Herd",
+      "@id": "[Herd](#Herd)",
       "@type": "xsd:string",
       "type": "array",
       "items": { "type": "string" },
@@ -35,7 +35,7 @@
       "dldescription": "Array of herds"
     },
     "sessionObservations": {
-      "@id": "http://www.datalinker.org/context/SessionObservations",
+      "@id": "[SessionObservations](SessionObservations.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
@@ -43,7 +43,7 @@
       "dldescription": "Array of Observations"
     },
     "sessionAnimals": {
-      "@id": "http://www.datalinker.org/context/SessionAnimals",
+      "@id": "[SessionAnimals](SessionAnimals.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },

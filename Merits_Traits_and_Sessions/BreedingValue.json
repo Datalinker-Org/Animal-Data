@@ -3,21 +3,21 @@
   "type": "object",
   "properties": {
     "animalUrl": {
-      "@id": "http://www.datalinker.org/context/BreedingValue-AnimalUrl",
+      "@id": "[AnimalUrl](#AnimalUrl)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
       "dldescription": ""
     },
     "bvDefinition": {
-      "@id": "http://www.datalinker.org/context/BreedingValue-BvDefinition",
+      "@id": "[BvDefinition](#BvDefinition)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
       "dldescription": ""
     },
     "identifiers": {
-      "@id": "http://www.datalinker.org/context/AnimalIdentifier",
+      "@id": "[Animal](Animal.md)Identifier",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
@@ -25,19 +25,19 @@
       "dldescription": ""
     },
     "bvCode": {
-      "@id": "http://www.datalinker.org/context/BreedingValue-BVCode",
+      "@id": "[BVCode](#BVCode)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": ""
     },
     "meritValue": {
-      "@id": "http://www.datalinker.org/context/BreedingValue-MeritValue",
+      "@id": "[MeritValue](#MeritValue)",
       "@type": "xsd:decimal",
       "type": "number",
       "dldescription": ""
     },
     "accuracy": {
-      "@id": "http://www.datalinker.org/context/BreedingValue-Accuracy",
+      "@id": "[Accuracy](#Accuracy)",
       "@type": "xsd:integer",
       "type": "string",
       "dldescription": ""

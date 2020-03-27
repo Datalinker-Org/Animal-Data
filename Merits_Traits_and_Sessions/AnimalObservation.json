@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "animalIdentifiers": {
-      "@id": "https://www.datalinker.org/context/AnimalIdentifier",
+      "@id": "[AnimalIdentifier](AnimalIdentifier.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
@@ -11,13 +11,13 @@
       "dldescription": "URN identifier of an externally meaningful ID such as birthTag,currentTag, birthHerdCode etc."
     },
     "animalData": {
-      "@id": "http://www.datalinker.org/context/Animal",
+      "@id": "[Animal](Animal.md)",
       "@type": "@id",
       "type": "object",
       "dldescription": " ?? "
     },
     "observations": {
-      "@id": "http://www.datalinker.org/context/Observation",
+      "@id": "[Observation](Observation.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },

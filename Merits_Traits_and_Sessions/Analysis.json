@@ -3,19 +3,19 @@
   "type": "object",
   "properties": {
     "analysisNumber": {
-      "@id": "http://www.datalinker.org/context/Analysis-AnalysisNumber",
+      "@id": "[AnalysisNumber](#AnalysisNumber)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Unique ID for the analysis (there can be multiple analyses per day)"
     },
     "analysisDate": {
-      "@id": "http://www.datalinker.org/context/Analysis-AnalysisDate",
+      "@id": "[AnalysisDate](#AnalysisDate)",
       "@type": "xsd:date",
       "type": "string",
       "dldescription": "Date of merit value analysis"
     },
     "analysisName": {
-      "@id": "http://www.datalinker.org/context/Analysis-AnalysisName",
+      "@id": "[AnalysisName](#AnalysisName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Name of merit value analysis"

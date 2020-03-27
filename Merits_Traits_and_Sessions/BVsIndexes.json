@@ -3,38 +3,38 @@
   "type": "object",
   "properties": {
     "providerOrganisationName": {
-      "@id": "http://www.datalinker.org/context/BVsIndexes-ProviderOrganisationName",
+      "@id": "[ProviderOrganisationName](#ProviderOrganisationName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": ""
     },
     "analysisUrl": {
-      "@id": "http://www.datalinker.org/context/BVsIndexes-AnalysisUrl",
+      "@id": "[AnalysisUrl](#AnalysisUrl)",
       "@type": "@id",
       "type": "string",
       "format": "uri",
       "dldescription": ""
     },
     "analysisNumber": {
-      "@id": "http://www.datalinker.org/context/BVsIndexes-AnalysisNumber",
+      "@id": "[AnalysisNumber](#AnalysisNumber)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": ""
     },
     "analysisDate": {
-      "@id": "http://www.datalinker.org/context/BVsIndexes-AnalysisDate",
+      "@id": "[AnalysisDate](#AnalysisDate)",
       "@type": "xsd:date",
       "type": "string",
       "dldescription": ""
     },
     "analysisName": {
-      "@id": "http://www.datalinker.org/context/BVsIndexes-AnalysisName",
+      "@id": "[AnalysisName](#AnalysisName)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": ""
     },
     "bvHerds": {
-      "@id": "http://www.datalinker.org/context/BVHerd",
+      "@id": "[BVHerd](BVHerd.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },

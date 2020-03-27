@@ -3,7 +3,7 @@
     "type": "object",
     "properties": {
         "animalIdentifiers": {
-            "@id": "https://www.datalinker.org/context/AnimalIdentifier",
+            "@id": "[AnimalIdentifier](AnimalIdentifier.md)",
             "@type": "@id",
             "type": "array",
             "items": {
@@ -13,7 +13,7 @@
             "dldescription": "Provides reference to the identifier used to represent the animal at various states - birth, current or historic"
         },
         "herdState": {
-            "@id": "https://www.datalinker.org/context/AnimalHerdState",
+            "@id": "[AnimalHerdState](AnimalHerdState.md)",
             "@type": "@id",
             "type": "array",
             "items": {
@@ -23,7 +23,7 @@
             "dldescription": "Provides reference to the herd the animal belongs to various states - birth, current or historic"
         },
         "locations": {
-            "@id": "https://www.datalinker.org/context/AnimalLocationState",
+            "@id": "[AnimalLocationState](AnimalLocationState.md)",
             "@type": "@id",
             "type": "array",
             "items": {

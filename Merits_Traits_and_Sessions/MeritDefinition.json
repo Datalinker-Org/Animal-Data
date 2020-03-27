@@ -3,43 +3,43 @@
     "type": "object",
     "properties": {
         "meritDataType": {
-            "@id": "http://www.datalinker.org/context/MeritDefinition-MeritDataType",
+            "@id": "[MeritDataType](#MeritDataType)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Data Type of the merit"
         },
         "meritFormula": {
-            "@id": "http://www.datalinker.org/context/MeritDefinition-MeritFormula",
+            "@id": "[MeritFormula](#MeritFormula)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Formual used to compute the merit"
         },
         "meritName": {
-            "@id": "http://www.datalinker.org/context/MeritDefinition-MeritName",
+            "@id": "[MeritName](#MeritName)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Name of Merit type in URN string format"
         },
         "meritShortName": {
-            "@id": "http://www.datalinker.org/context/MeritDefinition-MeritShortName",
+            "@id": "[MeritShortName](#MeritShortName)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Short name of Merit type in URN string format"
         },
         "meritType": {
-            "@id": "http://www.datalinker.org/context/MeritDefinition-MeritType",
+            "@id": "[MeritType](#MeritType)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Indicates what type of merit it is within the provider system. Eg, In SIL it can Breeding value or Index, In LIC it can be BW or PW"
         },
         "meritUnit": {
-            "@id": "http://www.datalinker.org/context/MeritDefinition-MeritUnit",
+            "@id": "[MeritUnit](#MeritUnit)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Unit of measurement for the merit"
         },
         "valueFormat":{
-            "@id": "https://www.datalinker.org/context/MeritDefinition-ValueFormat",
+            "@id": "[ValueFormat](#ValueFormat)",
             "@type": "xsd: string",
             "type": "string",
             "dldescription": "Description of how to format the merit values for displaying"

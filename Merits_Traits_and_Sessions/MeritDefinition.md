@@ -1,0 +1,23 @@
+ - <b id="#/properties/meritDataType">meritDataType</b>
+	 - **Description:** Data Type of the merit
+	 - **Type:** `string`
+ - <b id="#/properties/meritFormula">meritFormula</b>
+	 - **Description:** Formual used to compute the merit
+	 - **Type:** `string`
+ - <b id="#/properties/meritName">meritName</b>
+	 - **Description:** Name of Merit type in URN string format
+	 - **Type:** `string`
+ - <b id="#/properties/meritShortName">meritShortName</b>
+	 - **Description:** Short name of Merit type in URN string format
+	 - **Type:** `string`
+ - <b id="#/properties/meritType">meritType</b>
+	 - **Description:** Indicates what type of merit it is within the provider system. Eg, In SIL it can Breeding value or Index, In LIC it can be BW or PW
+	 - **Type:** `string`
+ - <b id="#/properties/meritUnit">meritUnit</b>
+	 - **Description:** Unit of measurement for the merit
+	 - **Type:** `string`
+ - <b id="#/properties/valueFormat">valueFormat</b>
+	 - **Description:** Description of how to format the merit values for displaying
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

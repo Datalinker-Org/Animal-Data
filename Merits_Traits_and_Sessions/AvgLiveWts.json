@@ -3,13 +3,13 @@
   "type": "object",
   "properties": {
     "weight": {
-      "@id": "https://www.datalinker.org/context/AvgLiveWts#weight",
+      "@id": "[AvgLiveWts#weight](AvgLiveWts#weight.md)",
       "@type": "xsd:number",
       "type": "integer",
       "dldescription": "Herd average live weight in Kg."
     },
     "season": {
-      "@id": "https://www.datalinker.org/context/AvgLiveWts#season",
+      "@id": "[AvgLiveWts#season](AvgLiveWts#season.md)",
       "@type": "xsd:string",
       "type": "string",
       "dldescription": "Season when the weights were recorded"

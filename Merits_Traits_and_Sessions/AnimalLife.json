@@ -3,13 +3,13 @@
   "type": "object",
   "properties": {
     "animalLifeData": {
-      "@id": "http://www.datalinker.org/context/AnimalLifeData",
+      "@id": "[AnimalLifeData](AnimalLifeData.md)",
       "@type": "@id",
       "type": "object",
       "dldescription": "This object describes the animal life attributes that typically do not change over the lifetime of the animal"
     },
     "organization": {
-      "@id": "http://www.datalinker.org/context/Organization",
+      "@id": "[Organization](Organization.md)",
       "@type": "@id",
       "type": "object",
       "dldescription": "This object describes the company or organization the farm has been registered as"
