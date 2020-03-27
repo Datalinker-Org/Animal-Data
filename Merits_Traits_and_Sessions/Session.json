@@ -4,7 +4,7 @@
   "properties": {
     "organization": {
       "@id": "http://www.datalinker.org/context/Organization",
-      "@type": "http://www.datalinker.org/contexts/2.0/Organization.jsonld",
+      "@type": "@id",
       "type": "object",
       "dldescription": "The official name or the registered name of the organization"
     },
@@ -36,7 +36,7 @@
     },
     "sessionObservations": {
       "@id": "http://www.datalinker.org/context/SessionObservations",
-      "@type": "http://www.datalinker.org/contexts/2.0/Observation.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "@container": "@set",
@@ -44,7 +44,7 @@
     },
     "sessionAnimals": {
       "@id": "http://www.datalinker.org/context/SessionAnimals",
-      "@type": "http://www.datalinker.org/contexts/2.0/AnimalObservation.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "@container": "@set",

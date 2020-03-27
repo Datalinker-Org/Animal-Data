@@ -24,7 +24,7 @@
     },
     "contactPerson": {
       "@id": "http://www.datalinker.org/context/ContactPoint",
-      "@type": "http://www.datalinker.org/contexts/2.0/ContactPoint.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "@container": "@set",

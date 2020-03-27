@@ -35,7 +35,7 @@
     },
     "bvHerds": {
       "@id": "http://www.datalinker.org/context/BVHerd",
-      "@type": "http://www.datalinker.org/contexts/2.0/BVHerd.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "@container": "@set",

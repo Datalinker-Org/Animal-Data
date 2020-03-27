@@ -4,7 +4,7 @@
   "properties": {
     "animalIdentifiers": {
       "@id": "https://www.datalinker.org/context/AnimalIdentifier",
-      "@type": "http://www.datalinker.org/contexts/2.0/AnimalIdentifier.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "@container": "@set",
@@ -12,13 +12,13 @@
     },
     "animalData": {
       "@id": "http://www.datalinker.org/context/Animal",
-      "@type": "http://www.datalinker.org/contexts/2.0/Animal.jsonld",
+      "@type": "@id",
       "type": "object",
       "dldescription": " ?? "
     },
     "observations": {
       "@id": "http://www.datalinker.org/context/Observation",
-      "@type": "http://www.datalinker.org/contexts/2.0/Observation.jsonld",
+      "@type": "@id",
       "type": "array",
       "items": { "type": "object" },
       "@container": "@set",

@@ -4,7 +4,7 @@
     "properties": {
         "animalIdentifiers": {
             "@id": "https://www.datalinker.org/context/AnimalIdentifier",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalIdentifier.jsonld",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"
@@ -14,7 +14,7 @@
         },
         "herdState": {
             "@id": "https://www.datalinker.org/context/AnimalHerdState",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalHerdState.jsonld",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"
@@ -24,7 +24,7 @@
         },
         "locations": {
             "@id": "https://www.datalinker.org/context/AnimalLocationState",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalLocationState.jsonld",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"

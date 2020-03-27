@@ -11,7 +11,7 @@
         },
         "merits":{
             "@id":"https://www.datalinker.org/context/MeritValue",
-            "@type":"https://www.datalinker.org/context/2.0/MeritValue/jsonld",
+            "@type":"@id",
             "type":"array",
             "items":{
                 "type":"object"

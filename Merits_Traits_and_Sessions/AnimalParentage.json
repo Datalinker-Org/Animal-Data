@@ -4,7 +4,7 @@
     "properties": {
         "parentIdentifiers": {
             "@id": "https://www.datalinker.org/context/AnimalIdentifier",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalIdentifier.jsonld",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"

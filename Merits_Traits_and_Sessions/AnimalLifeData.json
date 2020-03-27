@@ -46,7 +46,7 @@
         },
         "breeds": {
             "@id": "https://www.datalinker.org/context/BreedDistribution",
-            "@type": "https://www.datalinker.org/contexts/2.0/BreedDistribution.jsonld",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"
