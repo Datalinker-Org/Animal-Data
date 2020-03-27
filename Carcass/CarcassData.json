@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "animalIdentifiers": {
-      "@id": "[AnimalIdentifier](AnimalIdentifier.md)",
+      "@id": "[AnimalIdentifier](Merits_Traits_and_Sessions/AnimalIdentifier.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },

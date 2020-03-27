@@ -15,7 +15,35 @@
 	 - <b id="primallegmethodprimallegmethod">Link to property: [PrimalLegMethod](#PrimalLegMethod)</b>
  - <b id="#/properties/primalLoinWeight">primalLoinWeight</b>
 	 - **Description:** Loin weight in kg
+	 - **Type:** `number` - <b id="#/properties/saleableMeatYield">saleableMeatYield</b>
+	 - **Description:** Final meat yield (kg) after boning out
 	 - **Type:** `number`
+ - <b id="#/properties/primalLegWeight">primalLegWeight</b>
+	 - **Description:** Leg weight in kg
+	 - **Type:** `number`
+ - <b id="#/properties/primalLegYield">primalLegYield</b>
+	 - **Description:** Leg yield in relation to salebale meat yield in %
+	 - **Type:** `number`
+ - <b id="#/properties/primalLegMethod">primalLegMethod</b>
+	 - **Type:** `number`
+ - <b id="#/properties/primalLoinWeight">primalLoinWeight</b>
+	 - **Description:** Loin weight in kg
+	 - **Type:** `number`
+ - <b id="#/properties/primalLoinYield">primalLoinYield</b>
+	 - **Description:** Loin yield in relation to salebale meat yield in %
+	 - **Type:** `number`
+ - <b id="#/properties/primalLoinMethod">primalLoinMethod</b>
+	 - **Type:** `number`
+ - <b id="#/properties/primalShoulderWeight">primalShoulderWeight</b>
+	 - **Description:** Shoulder weight in kg
+	 - **Type:** `number`
+ - <b id="#/properties/primalShoulderYield">primalShoulderYield</b>
+	 - **Description:** Shoulder yield in relation to salebale meat yield in %
+	 - **Type:** `number`
+ - <b id="#/properties/primalShoulderMethod">primalShoulderMethod</b>
+	 - **Type:** `number`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
 	 - <b id="primalloinweightprimalloinweight">Link to property: [PrimalLoinWeight](#PrimalLoinWeight)</b>
  - <b id="#/properties/primalLoinYield">primalLoinYield</b>
 	 - **Description:** Loin yield in relation to salebale meat yield in %
