@@ -1,30 +1,27 @@
  - <b id="#/properties/id">id</b>
 	 - **Description:** Primary Id of the herd
 	 - **Type:** `string`
-	 - <b id="idid">Link to property: [id](#id)</b>
  - <b id="#/properties/identifiers">identifiers</b>
 	 - **Description:** One or more globally unique herd identifiers
 	 - **Type:** `array`
-	 - <b id="ididentifiers">Link to property: [id](#id)entifiers</b>
  - <b id="#/properties/name">name</b>
 	 - **Description:** Name of the herd
 	 - **Type:** `string`
-	 - <b id="namename">Link to property: [Name](#Name)</b>
  - <b id="#/properties/holding">holding</b>
 	 - **Description:** The Holding this herd is associated with
 	 - **Type:** `object`
-	 - <b id="dairyholdingdairyholding.md">Link to property: [DairyHolding](DairyHolding.md)</b>
+	 - <b id="dairyholdingdairyholding.md">Link to schema: [DairyHolding](DairyHolding.md)</b>
  - <b id="#/properties/herdEvents">herdEvents</b>
 	 - **Description:** The list of herd related events
 	 - **Type:** `array`
-	 - <b id="dairyherdeventdairyherdevent.md">Link to property: [DairyHerdEvent](DairyHerdEvent.md)</b>
+	 - <b id="dairyherdeventdairyherdevent.md">Link to schema: [DairyHerdEvent](DairyHerdEvent.md)</b>
  - <b id="#/properties/animals">animals</b>
 	 - **Description:** The list of animals that are contianed in this herd
 	 - **Type:** `array`
-	 - <b id="dairyanimaldairyanimal.md">Link to property: [DairyAnimal](DairyAnimal.md)</b>
+	 - <b id="dairyanimaldairyanimal.md">Link to schema: [DairyAnimal](DairyAnimal.md)</b>
  - <b id="#/properties/dateModified">dateModified</b>
 	 - **Description:** Date when details were last modified
 	 - **Type:** `string`
-	 - <b id="httpschema.orgdatemodified">Link to property: http://schema.org/dateModified</b>
+	 - <b id="httpschema.orgdatemodified">Link to schema: http://schema.org/dateModified</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

@@ -1,22 +1,17 @@
  - <b id="#/properties/id">id</b>
 	 - **Description:** Unique Id of the event
 	 - **Type:** `string`
-	 - <b id="idid">Link to property: [id](#id)</b>
  - <b id="#/properties/date">date</b>
 	 - **Description:** The date the event occured
 	 - **Type:** `string`
-	 - <b id="datedate">Link to property: [date](#date)</b>
  - <b id="#/properties/identifiers">identifiers</b>
 	 - **Description:** The list of globally unique animal identifiers invloved in the event
 	 - **Type:** `array`
-	 - <b id="ididentifiers">Link to property: [id](#id)entifiers</b>
  - <b id="#/properties/eventType">eventType</b>
 	 - **Description:** The type of Event this is (Reproduction, Milking, Movement, Weigh)
 	 - **Type:** `string`
-	 - <b id="eventtypeeventtype">Link to property: [eventType](#eventType)</b>
  - <b id="#/properties/content">content</b>
 	 - **Description:** The class specified by event type eg.(Reproduction, Milking, Movement, Weigh)
 	 - **Type:** `string`
-	 - <b id="contentcontent">Link to property: [content](#content)</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

@@ -1,22 +1,17 @@
  - <b id="#/properties/id">id</b>
 	 - **Description:** Unique Id of the herd milking event
 	 - **Type:** `string`
-	 - <b id="idid">Link to property: [id](#id)</b>
  - <b id="#/properties/dairyHerdEventId">dairyHerdEventId</b>
 	 - **Description:** herd event id that this milking event is part of
 	 - **Type:** `string`
-	 - <b id="dairyherdeventiddairyherdeventid">Link to property: [dairyHerdEventId](#dairyHerdEventId)</b>
  - <b id="#/properties/milkingMode">milkingMode</b>
 	 - **Description:** The method of milking (Manual or Robotic)
 	 - **Type:** `string`
-	 - <b id="milkingmodemilkingmode">Link to property: [milkingMode](#milkingMode)</b>
  - <b id="#/properties/sampleBatchIds">sampleBatchIds</b>
 	 - **Description:** The list of samples ids that were taken during the milking event
 	 - **Type:** `array`
-	 - <b id="samplebatchidssamplebatchids">Link to property: [sampleBatchIds](#sampleBatchIds)</b>
  - <b id="#/properties/sampleMethod">sampleMethod</b>
 	 - **Description:** The method of sampling
 	 - **Type:** `string`
-	 - <b id="samplemethodsamplemethod">Link to property: [sampleMethod](#sampleMethod)</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

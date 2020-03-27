@@ -1,58 +1,48 @@
  - <b id="#/properties/animalEventId">animalEventId</b>
 	 - **Description:** Unique Id of the related animal
 	 - **Type:** `string`
-	 - <b id="animaleventidanimaleventid">Link to property: [animalEventId](#animalEventId)</b>
  - <b id="#/properties/sampleId">sampleId</b>
 	 - **Description:** Unique Id of the sample (if one has been taken)
 	 - **Type:** `string`
-	 - <b id="sampleidsampleid">Link to property: [sampleId](#sampleId)</b>
  - <b id="#/properties/sampleTaken">sampleTaken</b>
 	 - **Description:** If a sample has been taken(True or False)
 	 - **Type:** `boolean`
-	 - <b id="sampletakensampletaken">Link to property: [sampleTaken](#sampleTaken)</b>
  - <b id="#/properties/sample">sample</b>
 	 - **Description:** Sample results of this milking event
 	 - **Type:** `object`
-	 - <b id="dairymilkingsampledairymilkingsample.md">Link to property: [DairyMilkingSample](DairyMilkingSample.md)</b>
+	 - <b id="dairymilkingsampledairymilkingsample.md">Link to schema: [DairyMilkingSample](DairyMilkingSample.md)</b>
  - <b id="#/properties/testMilkExcpetion">testMilkExcpetion</b>
 	 - **Description:** Exception code that occurred during the milking
 	 - **Type:** `string`
-	 - <b id="testmilkexcpetiontestmilkexcpetion">Link to property: [testMilkExcpetion](#testMilkExcpetion)</b>
  - <b id="#/properties/milkingMode">milkingMode</b>
 	 - **Description:** Mode that the milking was done (Manual or Robotic)
 	 - **Type:** `string`
-	 - <b id="milkingmodemilkingmode">Link to property: [milkingMode](#milkingMode)</b>
  - <b id="#/properties/startTime">startTime</b>
 	 - **Description:** The time the milking started
 	 - **Type:** `string`
-	 - <b id="starttimestarttime">Link to property: [startTime](#startTime)</b>
  - <b id="#/properties/endTime">endTime</b>
 	 - **Description:** The time the milking ended
 	 - **Type:** `string`
-	 - <b id="endtimeendtime">Link to property: [endTime](#endTime)</b>
  - <b id="#/properties/duration">duration</b>
 	 - **Description:** duration of the milking
 	 - **Type:** `number`
-	 - <b id="durationduration">Link to property: [duration](#duration)</b>
  - <b id="#/properties/milkingSuccess">milkingSuccess</b>
 	 - **Description:** If the milking was successful(True or False)
 	 - **Type:** `boolean`
-	 - <b id="milkingsuccessmilkingsuccess">Link to property: [milkingSuccess](#milkingSuccess)</b>
  - <b id="#/properties/rackNumber">rackNumber</b>
 	 - **Description:** The number of the sample rack, Mandatory if the sample is taken.
 	 - **Type:** `integer`
-	 - <b id="racknumberracknumber">Link to property: [rackNumber](#rackNumber)</b>
  - <b id="#/properties/milkingResult">milkingResult</b>
 	 - **Description:** Milking results of this milking event
 	 - **Type:** `object`
-	 - <b id="dairymilkingresultdairymilkingresult.md">Link to property: [DairyMilkingResult](DairyMilkingResult.md)</b>
+	 - <b id="dairymilkingresultdairymilkingresult.md">Link to schema: [DairyMilkingResult](DairyMilkingResult.md)</b>
  - <b id="#/properties/quarterResults">quarterResults</b>
 	 - **Description:** Milking results for each quater if they are recorded
 	 - **Type:** `array`
-	 - <b id="dairymilkingresultdairymilkingresult.md">Link to property: [DairyMilkingResult](DairyMilkingResult.md)</b>
+	 - <b id="dairymilkingresultdairymilkingresult.md">Link to schema: [DairyMilkingResult](DairyMilkingResult.md)</b>
  - <b id="#/properties/labAnalysisDetails">labAnalysisDetails</b>
 	 - **Description:** Details of the Lab that provided the analysis
 	 - **Type:** `object`
-	 - <b id="dairymilkingresultdairymilkingresult.mdlabdetails">Link to property: [DairyMilkingResult](DairyMilkingResult.md)LabDetails</b>
+	 - <b id="dairymilkingresultdairymilkingresult.mdlabdetails">Link to schema: [DairyMilkingResult](DairyMilkingResult.md)LabDetails</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
