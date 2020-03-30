@@ -25,13 +25,13 @@
             "format": "uri"
         },
         "animalHerds": {
-            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalHerd",
-            "type": "AnimalHerd",
+            "@id": "http://www.datalinker.org/contexts/2.0/AnimalHerd",
+            "type": "@id",
             "@container": "@set"
         },
         "animalIdentifiers": {
-            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalIdentifiers",
-            "type": "AnimalIdentifier",
+            "@id": "http://www.datalinker.org/contexts/2.0/AnimalIdentifiers",
+            "type": "@id",
             "@container": "@set"
         },
         "animals": {
