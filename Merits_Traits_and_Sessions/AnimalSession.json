@@ -3,216 +3,216 @@
     "type": "object",
     "properties": {
         "accuracy": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Accuracy",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Accuracy",
             "type": "xsd:integer"
         },
         "analysisDate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnalysisDate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnalysisDate",
             "type": "xsd:date"
         },
         "analysisName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnalysisName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnalysisName",
             "type": "xsd:string"
         },
         "analysisNumber": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnalysisNumber",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnalysisNumber",
             "type": "xsd:string"
         },
         "analysisUrl": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnalysisUrl",
+            "@id": "http://www.datalinker.org/contexts/2.0/AnalysisUrl",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "animalHerds": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalHerd",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalHerd",
             "type": "AnimalHerd",
             "@container": "@set"
         },
         "animalIdentifiers": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalIdentifiers",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalIdentifiers",
             "type": "AnimalIdentifier",
             "@container": "@set"
         },
         "animals": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdAnimals",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdAnimals",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "animalUrl": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalUrl",
+            "@id": "http://www.datalinker.org/contexts/2.0/AnimalUrl",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "birthCohort": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BirthCohort",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BirthCohort",
             "type": "xsd:string"
         },
         "birthDate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BirthDate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BirthDate",
             "type": "xsd:date"
         },
         "birthDateConfidence": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BirthDateConfidence",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BirthDateConfidence",
             "type": "xsd:string"
         },
         "birthRank": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BirthRank",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BirthRank",
             "type": "xsd:integer"
         },
         "birthYear": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BirthYear",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BirthYear",
             "type": "xsd:integer"
         },
         "breedAssessed": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedAssessed",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedAssessed",
             "type": "xsd:string"
         },
         "breedDistributionDenominator": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedDistributionDenominator",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedDistributionDenominator",
             "type": "xsd:integer"
         },
         "breedName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedName",
             "@type": "xsd:string",
             "type": "string"
         },
         "breeds": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedDistribution",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedDistribution",
             "type": "BreedDistribution",
             "@container": "@set"
         },
         "breedSocSECode": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedSocSECode",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedSocSECode",
             "type": "xsd:string"
         },
         "breedSocietyRegStatus": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedSocietyRegStatus",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedSocietyRegStatus",
             "type": "xsd:boolean"
         },
         "bvCode": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BVCode",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BVCode",
             "type": "xsd:string"
         },
         "bvDefinition": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BvDefinition",
+            "@id": "http://www.datalinker.org/contexts/2.0/BvDefinition",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "bvHerds": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BVHerd",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BVHerd",
             "type": "BVHerd",
             "@container": "@set"
         },
         "currentLocation": {
-            "@id": "http://www.datalinker.org/contexts/1.0/CurrentLocation",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-CurrentLocation",
             "type": "xsd:string"
         },
         "currentState": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalState",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalState",
             "type": "AnimalState"
         },
         "disposalMethod": {
-            "@id": "http://www.datalinker.org/contexts/1.0/DisposalMethod",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-DisposalMethod",
             "type": "xsd:string"
         },
         "fate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Fate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Fate",
             "type": "xsd:string"
         },
         "fertilityStatus": {
-            "@id": "http://www.datalinker.org/contexts/1.0/FertilityStatus",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-FertilityStatus",
             "type": "xsd:string"
         },
         "herd": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Herd",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Herd",
             "type": "@id"
         },
         "herdBreedingValues": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdBVs",
+            "@id": "http://www.datalinker.org/contexts/2.0/HerdBVs",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "herdCode": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdCode",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdCode",
             "type": "xsd:string"
         },
         "herdCodes": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdCodes",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdCodes",
             "@container": "@set"
         },
         "herdIdentifiers": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdIdentifiers",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdIdentifiers",
             "type": "xsd:string",
             "@container": "@set"
         },
         "herdIndexValues": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdIndexes",
+            "@id": "http://www.datalinker.org/contexts/2.0/HerdIndexes",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "herdName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdName",
             "@type": "xsd:string",
             "type": "string"
         },
         "herdState": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalHerdState",
+            "@id": "http://www.datalinker.org/contexts/2.0/AnimalHerdState",
             "type": "AnimalHerdState",
             "@container": "@set"
         },
         "herdUrl": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdUrl",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdUrl",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "identifier": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Identifier",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Identifier",
             "type": "xsd:string"
         },
         "identity": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalIdentity",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalIdentity",
             "type": "AnimalIdentity"
         },
         "idType": {
-            "@id": "http://www.datalinker.org/contexts/1.0/IDType",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-IDType",
             "type": "xsd:string"
         },
         "indexAccuracy": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritAccuracy",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritAccuracy",
             "type": "xsd:integer"
         },
         "indexDefinition": {
-            "@id": "http://www.datalinker.org/contexts/1.0/IndexDefinition",
+            "@id": "http://www.datalinker.org/contexts/2.0/IndexDefinition",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "indexFormula": {
-            "@id": "http://www.datalinker.org/contexts/1.0/IndexFormula",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-IndexFormula",
             "type": "xsd:string"
         },
         "indexName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/IndexName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-IndexName",
             "type": "xsd:string"
         },
         "indexShortName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/IndexShortName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-IndexShortName",
             "type": "xsd:string"
         },
         "itemKey": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ObservationItemKey",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ObservationItemKey",
             "@type": "xsd:string",
             "type": "string"
         },
         "itemLabel": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ObservationItemLabel",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ObservationItemLabel",
             "@type": "xsd:string",
             "type": "array",
             "items": {
@@ -221,254 +221,254 @@
             "@container": "@set"
         },
         "itemValue": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ObservationItemValue",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ObservationItemValue",
             "@type": "xsd:string",
             "type": "string"
         },
         "lifeData": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalLifeData",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalLifeData",
             "type": "AnimalLifeData"
         },
         "lactating": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Lactating",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Lactating",
             "type": "xsd:boolean"
         },
         "locations": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalLocationState",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalLocationState",
             "type": "AnimalLocationState",
             "@container": "@set"
         },
         "observationCategory": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ObservationCategory",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ObservationCategory",
             "@type": "xsd:string",
             "type": "string"
         },
         "observationDate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ObservationDate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ObservationDate",
             "@type": "xsd:date",
             "type": "string"
         },
         "observationItems": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ObservationItems",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ObservationItems",
             "type": "ObservationItem",
             "@container": "@set"
         },
         "observations": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Observations",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Observations",
             "type": "Observation",
             "@container": "@set"
         },
         "parentage": {
-            "@id": "http://www.datalinker.org/contexts/1.0/AnimalParentage",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-AnimalParentage",
             "type": "AnimalParentage",
             "@container": "@set"
         },
         "parentsAge": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ParentsAge",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ParentsAge",
             "type": "xsd:integer"
         },
         "parentMethod": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ParentMethod",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ParentMethod",
             "type": "xsd:string"
         },
         "parentType": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ParentType",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ParentType",
             "type": "xsd:string"
         },
         "postBirthMob": {
-            "@id": "http://www.datalinker.org/contexts/1.0/PostBirthMob",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-PostBirthMob",
             "type": "xsd:integer"
         },
         "preBirthMob": {
-            "@id": "http://www.datalinker.org/contexts/1.0/PreBirthMob",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-PreBirthMob",
             "type": "xsd:integer"
         },
         "primaryBreedAbbreviation": {
-            "@id": "http://www.datalinker.org/contexts/1.0/PrimaryBreedAbbreviation",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-PrimaryBreedAbbreviation",
             "type": "xsd:string"
         },
         "proportion": {
-            "@id": "http://www.datalinker.org/contexts/1.0/BreedProportion",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-BreedProportion",
             "@type": "xsd:decimal",
             "type": "number"
         },
         "providerOrganisationName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ProviderOrganisationName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ProviderOrganisationName",
             "@type": "xsd:string",
             "type": "string"
         },
         "recordingDate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/RecordingDate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-RecordingDate",
             "type": "xsd:date"
         },
         "recordingHerd": {
-            "@id": "http://www.datalinker.org/contexts/1.0/RecordingHerd",
+            "@id": "http://www.datalinker.org/contexts/2.0/RecordingHerd",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "recordingMob": {
-            "@id": "http://www.datalinker.org/contexts/1.0/RecordingMob",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-RecordingMob",
             "type": "xsd:integer"
         },
         "recordingPeriod": {
-            "@id": "http://www.datalinker.org/contexts/1.0/RecordingPeriod",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-RecordingPeriod",
             "type": "xsd:integer"
         },
         "recordingYear": {
-            "@id": "http://www.datalinker.org/contexts/1.0/RecordingYear",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-RecordingYear",
             "type": "xsd:integer"
         },
         "rearingRank": {
-            "@id": "http://www.datalinker.org/contexts/1.0/RearingRank",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-RearingRank",
             "type": "xsd:integer"
         },
         "reproductiveStatus": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ReproductiveStatus",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ReproductiveStatus",
             "type": "xsd:string"
         },
         "sessionAnimals": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SessionAnimals",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SessionAnimals",
             "type": "AnimalObservations",
             "@container": "@set"
         },
         "sessionDate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SessionDate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SessionDate",
             "@type": "xsd:date",
             "type": "string"
         },
         "sessionName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SessionName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SessionName",
             "@type": "xsd:date",
             "type": "string"
         },
         "sessionObservations": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SessionObservations",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SessionObservations",
             "type": "Observation",
             "@container": "@set"
         },
         "sessionUrl": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SessionUrl",
+            "@id": "http://www.datalinker.org/contexts/2.0/SessionUrl",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "sex": {
-            "@id": "http://www.datalinker.org/contexts/1.0/Sex",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-Sex",
             "type": "xsd:string"
         },
         "speciesBinomialName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SpeciesBinomialName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SpeciesBinomialName",
             "type": "xsd:string"
         },
         "speciesCommonName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SpeciesCommonName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SpeciesCommonName",
             "type": "xsd:string"
         },
         "state": {
-            "@id": "http://www.datalinker.org/contexts/1.0/State",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-State",
             "type": "xsd:string"
         },
         "statusDate": {
-            "@id": "http://www.datalinker.org/contexts/1.0/StatusDate",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-StatusDate",
             "type": "xsd:date"
         },
         "survivedToWeaning": {
-            "@id": "http://www.datalinker.org/contexts/1.0/SurvivedToWeaning",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-SurvivedToWeaning",
             "type": "xsd:boolean"
         },
         "traitCode": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitCode",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-TraitCode",
             "type": "xsd:string"
         },
         "traitDataType": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitDataType",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-TraitDataType",
             "type": "xsd:string"
         },
         "traitDefinition": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitDefinition",
+            "@id": "http://www.datalinker.org/contexts/2.0/TraitDefinition",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "traitDefinitions": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdTraitDefinitions",
+            "@id": "http://www.datalinker.org/contexts/2.0/HerdTraitDefinitions",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "traitName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-TraitName",
             "type": "xsd:string"
         },
         "traits": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdTraits",
+            "@id": "http://www.datalinker.org/contexts/2.0/HerdTraits",
             "@type": "@id",
             "type": "string",
             "format": "uri"
         },
         "traitType": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitType",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-TraitType",
             "type": "xsd:string"
         },
         "traitUnits": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitUnits",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-TraitUnits",
             "type": "xsd:string"
         },
         "traitValue": {
-            "@id": "http://www.datalinker.org/contexts/1.0/TraitValue",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-TraitValue",
             "type": "xsd:string"
         },
         "validFrom": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ValidFrom",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ValidFrom",
             "type": "xsd:date"
         },
         "validThrough": {
-            "@id": "http://www.datalinker.org/contexts/1.0/ValidThrough",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-ValidThrough",
             "type": "xsd:date"
         },
         "visualColor": {
-            "@id": "http://www.datalinker.org/contexts/1.0/VisualColor",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-VisualColor",
             "type": "xsd:string"
         },
         "withholdingDateExport": {
-            "@id": "http://www.datalinker.org/contexts/1.0/WithholdingDateExport",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-WithholdingDateExport",
             "type": "xsd:date"
         },
         "withholdingDateMeat": {
-            "@id": "http://www.datalinker.org/contexts/1.0/WithholdingDateMeat",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-WithholdingDateMeat",
             "type": "xsd:date"
         },
         "withholdingDateMilk": {
-            "@id": "http://www.datalinker.org/contexts/1.0/WithholdingDateMilk",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-WithholdingDateMilk",
             "type": "xsd:date"
         },
         "meritHerds": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritHerds",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritHerds",
             "type": "@set"
         },
         "meritShortName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritShortName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritShortName",
             "type": "xsd:string"
         },
         "meritName": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritName",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritName",
             "type": "xsd:string"
         },
         "meritFormula": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritFormula",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritFormula",
             "type": "xsd:string"
         },
         "meritType": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritType",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritType",
             "type": "xsd:string"
         },
         "meritValue": {
-            "@id": "http://www.datalinker.org/contexts/1.0/MeritValue",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-MeritValue",
             "type": "xsd:decimal"
         },
         "herdMeritValues": {
-            "@id": "http://www.datalinker.org/contexts/1.0/HerdMeritValues",
+            "@id": "http://www.datalinker.org/contexts/2.0/Animal-Data-HerdMeritValues",
             "type": "xsd:string"
         }
     }
