@@ -2,7 +2,7 @@
 
 Schemas for animal carcass, animal merits, animal traits, animal sessions and Dairy.
 
-## Schemas for [Carcass data](https://github.com/Datalinker-Org/Animal-Data/tree/master/Carcass/README.MD)
+## Schemas for [Carcass data](Carcass/README.MD)
 
 ## Schemas for [Dairy data](https://github.com/Datalinker-Org/Animal-Data/tree/master/Dairy/README.MD)
 
