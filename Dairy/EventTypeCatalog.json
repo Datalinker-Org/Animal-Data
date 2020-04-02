@@ -2,59 +2,59 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "ICARAnimalEventMilking": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalEventMilking",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARAnimalEventDryingOff": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalEventDryingOff",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARAnimalEventHeat": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalEventHeat",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARAnimalEventInsemination": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalEventInsemination",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARAnimalEventParturition": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalEventParturition",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARAnimalEventPregnancyCheck": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalEventPregnancyCheck",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARAnimalParturitionOffSpring": {
-            "@id": "https://www.datalinker.org/context/ICARAnimalParturitionOffSpring",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARHerdEventMovement": {
-            "@id": "https://www.datalinker.org/context/ICARHerdEventMovement",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        },
-        "ICARHerdEventMilking": {
-            "@id": "https://www.datalinker.org/context/ICARHerdEventMilking",
-            "@type": "@id",
-            "type": "object",
-            "dldescription": ""
-        }
+      "ICARAnimalEventMilking": {
+        "@id": "[ICARAnimalEventMilking](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventMilking)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARAnimalEventDryingOff": {
+        "@id": "[ICARAnimalEventDryingOff](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventDryingOff)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARAnimalEventHeat": {
+        "@id": "[ICARAnimalEventHeat](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventHeat)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARAnimalEventInsemination": {
+        "@id": "[ICARAnimalEventInsemination](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventInsemination)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARAnimalEventParturition": {
+        "@id": "[ICARAnimalEventParturition](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventParturition)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARAnimalEventPregnancyCheck": {
+        "@id": "[ICARAnimalEventPregnancyCheck](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventPregnancyCheck)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARAnimalParturitionOffSpring": {
+        "@id": "[ICARAnimalParturitionOffSpring](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalParturitionOffSpring)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARHerdEventMovement": {
+        "@id": "[ICARHerdEventMovement](https://github.com/Datalinker-Org/ICAR-Rezare/ICARHerdEventMovement)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      },
+      "ICARHerdEventMilking": {
+        "@id": "[ICARHerdEventMilking](https://github.com/Datalinker-Org/ICAR-Rezare/ICARHerdEventMilking)",
+        "@type": "@id",
+        "type": "object",
+        "dldescription": ""
+      }
     }
 }

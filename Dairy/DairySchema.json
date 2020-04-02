@@ -8,15 +8,15 @@
             "type": "object",
             "dldescription": "Contact details of the provider organization"
         },
-        "herds": {
-            "@id": "https://www.datalinker.org/context/ICARHerd",
-            "@type": "@id",
-            "type": "array",
-            "items": {
-                "type": "object"
-            },
-            "@container": "@set",
-            "dldescription": "The list of herds avialable for this consumer"
-        }
+      "herds": {
+        "@id": "[herds](https://github.com/Datalinker-Org/ICAR-Rezare/ICARHerd)",
+        "@type": "@id",
+        "type": "array",
+        "items": {
+          "type": "object"
+        },
+        "@container": "@set",
+        "dldescription": "The list of herds available for this consumer"
+      }
     }
 }
