@@ -212,6 +212,7 @@
             "type": "string"
         },
         "itemLabel": {
+
             "@id": "[Animal-Data-ObservationItemLabel](#Animal-Data-ObservationItemLabel)",
             "@type": "xsd:string",
             "type": "array",
@@ -254,6 +255,7 @@
             "@container": "@set"
         },
         "observations": {
+
             "@id": "[Animal-Data-Observations](#Animal-Data-Observations)",
             "type": "Observation",
             "@container": "@set"
@@ -293,6 +295,7 @@
             "type": "number"
         },
         "providerOrganisationName": {
+
             "@id": "[Animal-Data-ProviderOrganisationName](#Animal-Data-ProviderOrganisationName)",
             "@type": "xsd:string",
             "type": "string"
@@ -473,3 +476,4 @@
         }
     }
 }
+
