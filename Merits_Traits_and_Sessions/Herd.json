@@ -23,7 +23,7 @@
       "dldescription": "Common term for species. Enumeration values: Cattle, Deer, Goats, Sheep"
     },
     "contactPerson": {
-      "@id": "[ContactPoint](ContactPoint.md)",
+      "@id": "[ContactPoint](https://github.com/Datalinker-Org/Shared/blob/master/ContactPoint.md)",
       "@type": "@id",
       "type": "array",
       "items": { "type": "object" },

@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "organization": {
-      "@id": "[Organization](Organization.md)",
+      "@id": "[Organization](https://github.com/Datalinker-Org/Shared/blob/master/Organization.md)",
       "@type": "@id",
       "type": "object",
       "dldescription": "The official name or the registered name of the organization"
