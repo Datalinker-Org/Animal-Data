@@ -1,0 +1,38 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the Milking Result
+	 - **Type:** `string`
+ - <b id="#/properties/milkingEventId">milkingEventId</b>
+	 - **Description:** Unique Id of the milking event
+	 - **Type:** `string`
+ - <b id="#/properties/quarterType">quarterType</b>
+	 - **Description:** Which Quarter this Milking result is for (Front-Left, Front-Right, Rear-Left, Rear-Right or None) 
+	 - **Type:** `string`
+ - <b id="#/properties/bottleIdentifer">bottleIdentifer</b>
+	 - **Description:** Unique Id of the bottle (vial) used
+	 - **Type:** `string`
+ - <b id="#/properties/bottlePosition">bottlePosition</b>
+	 - **Description:** positioning of the bottle (vial) in the sample rack
+	 - **Type:** `string`
+ - <b id="#/properties/concentrate">concentrate</b>
+	 - **Description:** Amount of concentrate given on SampleDate in Kg
+	 - **Type:** `number`
+ - <b id="#/properties/measureDeviceId">measureDeviceId</b>
+	 - **Description:** Id of the measuring device used
+	 - **Type:** `string`
+ - <b id="#/properties/milkingBoxNumber">milkingBoxNumber</b>
+	 - **Description:** Id of the milkbox in (AMS unit)
+	 - **Type:** `string`
+ - <b id="#/properties/milkWeight">milkWeight</b>
+	 - **Description:** Weight of the milk from this milking
+	 - **Type:** `number`
+ - <b id="#/properties/parlorUnit">parlorUnit</b>
+	 - **Description:** Id of the parlor unit
+	 - **Type:** `string`
+ - <b id="#/properties/averageFlowRate">averageFlowRate</b>
+	 - **Description:** The average flow rate of the milk in Kg/min
+	 - **Type:** `number`
+ - <b id="#/properties/maxFlowRate">maxFlowRate</b>
+	 - **Description:** The max flow rate of the milk in Kg/min
+	 - **Type:** `number`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

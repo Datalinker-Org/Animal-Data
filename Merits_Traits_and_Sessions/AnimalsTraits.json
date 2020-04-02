@@ -1,22 +1,22 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-        "animalHerds": {
-            "@id": "http://www.datalinker.org/context/AnimalHerd",
-            "@type": "http://www.datalinker.org/contexts/2.0/AnimalHerd.jsonld",
-            "type": "array",
-            "items": {
-                "type": "object"
-            },
-            "@container": "@set",
-            "dldescription": "Array of Animal Herds"
-        },
-        "providerOrganisationName": {
-            "@id": "http://www.datalinker.org/context/AnimalsTraits-ProviderOrganisationName",
-            "@type": "xsd:string",
-            "type": "string",
-            "dldescription": "Name of the Provider organisation"
-        }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "animalHerds": {
+      "@id": "[AnimalHerd](AnimalHerd.md)",
+      "@type": "@id",
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "@container": "@set",
+      "dldescription": "Array of Animal Herds"
+    },
+    "providerOrganisationName": {
+      "@id": "[ProviderOrganisationName](#ProviderOrganisationName)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Name of the Provider organisation"
     }
+  }
 }

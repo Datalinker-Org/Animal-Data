@@ -1,0 +1,33 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the animal event
+	 - **Type:** `string`
+ - <b id="#/properties/animalId">animalId</b>
+	 - **Description:** Unique Id of the related animal
+	 - **Type:** `string`
+ - <b id="#/properties/herdEventId">herdEventId</b>
+	 - **Description:** Unique Id of the related herd event
+	 - **Type:** `string`
+ - <b id="#/properties/animalEarNumber">animalEarNumber</b>
+	 - **Description:** The ear number of the inseminated cow
+	 - **Type:** `string`
+ - <b id="#/properties/calvingType">calvingType</b>
+	 - **Description:** The type of the calving (Normal Calving, Embryo Calving, Abortion (starts lactation), Early abortion (no lactation))
+	 - **Type:** `string`
+ - <b id="#/properties/cowUsage">cowUsage</b>
+	 - **Description:** Usage of the cow in this lactation (milking, suckler)
+	 - **Type:** `string`
+ - <b id="#/properties/embryoTransfer">embryoTransfer</b>
+	 - **Description:** If the calf is born embryo (Normal Calf, Emybro Calf)
+	 - **Type:** `string`
+ - <b id="#/properties/parity">parity</b>
+	 - **Description:** The number of calving for the dam
+	 - **Type:** `string`
+ - <b id="#/properties/parturitionEase">parturitionEase</b>
+	 - **Description:** The ease / difficulty of calving (Unkown, Without assistance, Was assisted, Strong pull assistance, Other assistance(caesarean,etc))
+	 - **Type:** `string`
+ - <b id="#/properties/offsprings">offsprings</b>
+	 - **Description:** List of Offsprings
+	 - **Type:** `array`
+	 - <b id="dairyanimalparturationoffspringdairyanimalparturationoffspring.md">Link to schema: [DairyAnimalParturationOffSpring](DairyAnimalParturationOffSpring.md)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

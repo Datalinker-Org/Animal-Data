@@ -1,0 +1,44 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the Milking Sample
+	 - **Type:** `string`
+ - <b id="#/properties/acetone">acetone</b>
+	 - **Description:** Value for Acetone (mmol/l)
+	 - **Type:** `number`
+ - <b id="#/properties/avgCond">avgCond</b>
+	 - **Description:** Average conductivity value of the milk at 25C (mS/cm)
+	 - **Type:** `number`
+ - <b id="#/properties/brb">brb</b>
+	 - **Description:** Value for Beta hydroxybutyrate (mmol/l)
+	 - **Type:** `number`
+ - <b id="#/properties/blood">blood</b>
+	 - **Description:** Was there blood (True or False)
+	 - **Type:** `boolean`
+ - <b id="#/properties/ecmMilk">ecmMilk</b>
+	 - **Description:** Energy corrected milk yield per day (kg)
+	 - **Type:** `string`
+ - <b id="#/properties/fat">fat</b>
+	 - **Description:** Value for Fat (percentage)
+	 - **Type:** `number`
+ - <b id="#/properties/lac">lac</b>
+	 - **Description:** Value for Lactose (percentage)
+	 - **Type:** `number`
+ - <b id="#/properties/ldh">ldh</b>
+	 - **Description:** Value for Lactate dehydrogenase (IU/l)
+	 - **Type:** `number`
+ - <b id="#/properties/maxCond">maxCond</b>
+	 - **Description:** Maximum conductivity value of the milk at 25C (mS/cm)
+	 - **Type:** `number`
+ - <b id="#/properties/pro">pro</b>
+	 - **Description:** Value for Progesteron (mmol/l)
+	 - **Type:** `number`
+ - <b id="#/properties/protien">protien</b>
+	 - **Description:** Value for Protein (percentage)
+	 - **Type:** `number`
+ - <b id="#/properties/scc">scc</b>
+	 - **Description:** Value for Somatic cell count (x1000 cells/ml)
+	 - **Type:** `string`
+ - <b id="#/properties/urea">urea</b>
+	 - **Description:** Value for Urea (ppm, mg/l)
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

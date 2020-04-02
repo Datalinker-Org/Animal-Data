@@ -1,1 +1,24 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"faultName":{"@id":"http://www.datalinker.org/context/CarcassFault-FaultName","@type":"xsd:string","type":"string","dldescription":"Actino; C.Ovis; Condemned part; Endocarditis; Enteritis; Epicarditis; Pericarditis; GIT Neoplasm; GIT Peritonitis; Infarcts; Liver fluke; Lympho; M. Bovis; Melanosis; Neoplasm; Nephritis; Peritonitis; Pluck; CLA; Pneumonia; Pyogenic lesions; Sarco-Cysts; Septicaemia; Xanthosis; Bruising; Dog Bite; Wounds & Bruising; Arthritis; Pleurisy"},"faultLocation":{"@id":"http://www.datalinker.org/context/CarcassFault-FaultLocation","@type":"xsd:string","type":"string","dldescription":"Body part or system affected for FaultName, coded using ICAR diagnosis coding system18 "},"faultDowngrade":{"@id":"http://www.datalinker.org/context/CarcassFault-FaultDowngrade","@type":"xsd:boolean","type":"boolean","dldescription":"Carcass value downgraded due to Fault. Value: True/False"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "faultName": {
+      "@id": "[FaultName](#FaultName)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Actino; C.Ovis; Condemned part; Endocarditis; Enteritis; Epicarditis; Pericarditis; GIT Neoplasm; GIT Peritonitis; Infarcts; Liver fluke; Lympho; M. Bovis; Melanosis; Neoplasm; Nephritis; Peritonitis; Pluck; CLA; Pneumonia; Pyogenic lesions; Sarco-Cysts; Septicaemia; Xanthosis; Bruising; Dog Bite; Wounds & Bruising; Arthritis; Pleurisy"
+    },
+    "faultLocation": {
+      "@id": "[FaultLocation](#FaultLocation)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Body part or system affected for FaultName, coded using ICAR diagnosis coding system18 "
+    },
+    "faultDowngrade": {
+      "@id": "[FaultDowngrade](#FaultDowngrade)",
+      "@type": "xsd:boolean",
+      "type": "boolean",
+      "dldescription": "Carcass value downgraded due to Fault. Value: True/False"
+    }
+  }
+}

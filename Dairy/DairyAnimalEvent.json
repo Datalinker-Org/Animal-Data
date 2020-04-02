@@ -1,1 +1,48 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"id":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-id","@type":"xsd:string","type":"string","dldescription":"Unique Id of the animal event"},"animalId":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-animalId","@type":"xsd:string","type":"string","dldescription":"Unique Id of the related animal"},"herdEventId":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-herdEventId","@type":"xsd:string","type":"string","dldescription":"Unique Id of the related herd event"},"date":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-date","@type":"xsd:dateTime","type":"string","dldescription":"The date that the event occured"},"notes":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-notes","@type":"xsd:string","type":"string","dldescription":"Any notes relating to the event"},"eventType":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-eventType","@type":"xsd:string","type":"string","dldescription":"The type of Event this is (Reproduction, Milking, Weigh)"},"content":{"@id":"https://www.datalinker.org/context/DairyAnimalEvent-content","@type":"xsd:object","type":"string","dldescription":"The class specified by event type eg.(Reproduction, Milking, Weigh)"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "@id": "[id](#id)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the animal event"
+    },
+    "animalId": {
+      "@id": "[animalId](#animalId)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the related animal"
+    },
+    "herdEventId": {
+      "@id": "[herdEventId](#herdEventId)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the related herd event"
+    },
+    "date": {
+      "@id": "[date](#date)",
+      "@type": "xsd:dateTime",
+      "type": "string",
+      "dldescription": "The date that the event occured"
+    },
+    "notes": {
+      "@id": "[notes](#notes)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Any notes relating to the event"
+    },
+    "eventType": {
+      "@id": "[eventType](#eventType)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "The type of Event this is (Reproduction, Milking, Weigh)"
+    },
+    "content": {
+      "@id": "[content](#content)",
+      "@type": "xsd:object",
+      "type": "string",
+      "dldescription": "The class specified by event type eg.(Reproduction, Milking, Weigh)"
+    }
+  }
+}

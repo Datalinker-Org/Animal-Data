@@ -3,61 +3,61 @@
     "type": "object",
     "properties": {
         "currentLocation": {
-            "@id": "https://www.datalinker.org/context/AnimalState-CurrentLocation",
+            "@id": "[CurrentLocation](#CurrentLocation)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Location identifier for the animal using a URN-based identification string containing namespace and unique identifier within the namespace"
         },
         "currentStatus": {
-            "@id": "https://www.datalinker.org/context/AnimalState-CurrentStatus",
+            "@id": "[CurrentStatus](#CurrentStatus)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Typically describes if the animal is Alive, Dead or in Transit. Also known as 'Status' in some systems. Reason for Fate should be captured as an observation"
         },
         "disposalMethod": {
-            "@id": "https://www.datalinker.org/context/AnimalState-DisposalMethod",
+            "@id": "[DisposalMethod](#DisposalMethod)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Describes the disposal method for an animal that is dead. It can take the values - Home Kill, Disposed at NAIT Location, Meat processor-human consumption, Meat Prociessor-pet food, Rendering Facility"
         },
         "fertilityStatus": {
-            "@id": "https://www.datalinker.org/context/AnimalState-FertilityStatus",
+            "@id": "[FertilityStatus](#FertilityStatus)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Indicates whether an animal is known to be fertile or note, or whether it has been partly or fully neutered. For instance, a neutered cattle male is a steer, a neutered sheep male is a wether. Females of both species can be spayed. An infertile male by comparison still has testes and responds as a male, and is frequently used as a 'teaser'"
         },
         "lactating": {
-            "@id": "https://www.datalinker.org/context/AnimalState-Lactating",
+            "@id": "[Lactating](#Lactating)",
             "@type": "xsd:boolean",
             "type": "boolean",
             "dldescription": "Confirms whether an animal is lactating at time of data transfer. Note this may change many times over an animal's life. It can take the values True or False"
         },
         "reproductiveStatus": {
-            "@id": "https://www.datalinker.org/context/AnimalState-ReproductiveStatus",
+            "@id": "[ReproductiveStatus](#ReproductiveStatus)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Describes if the animal is pregnant at the time of data transfer. Note this may change many times over an animal's life. It can take the values - NULL, Cycling, Not Cycling, Pregnant, Involuting"
         },
         "statusDate": {
-            "@id": "https://www.datalinker.org/context/AnimalState-StatusDate",
+            "@id": "[StatusDate](#StatusDate)",
             "@type": "xsd:date",
             "type": "string",
             "dldescription": "Date the fate or status last changed"
         },
         "withholdingDateExport": {
-            "@id": "https://www.datalinker.org/context/AnimalState-WithholdingDateExport",
+            "@id": "[WithholdingDateExport](#WithholdingDateExport)",
             "@type": "xsd:date",
             "type": "string",
             "dldescription": "Describes the date resulting from export slaughter interval of a treatment. May be NULL "
         },
         "withholdingDateMeat": {
-            "@id": "https://www.datalinker.org/context/AnimalState-WithholdingDateMeat",
+            "@id": "[WithholdingDateMeat](#WithholdingDateMeat)",
             "@type": "xsd:date",
             "type": "string",
             "dldescription": "Describes the date before which an animal may not enter the food supply chain. May be NULL "
         },
         "withholdingDateMilk": {
-            "@id": "https://www.datalinker.org/context/AnimalState-WithholdingDateMilk",
+            "@id": "[WithholdingDateMilk](#WithholdingDateMilk)",
             "@type": "xsd:date",
             "type": "string",
             "dldescription": "Describes the date before which an animal may not enter the food supply chain. May be NULL "

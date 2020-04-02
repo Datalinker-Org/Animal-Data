@@ -3,15 +3,15 @@
     "type": "object",
     "properties": {
         "analysisUrl":{
-            "@id":"https://www.datalinker.org/context/AnimalMeritsData-analysisUrl",
+            "@id":"[analysisUrl](#analysisUrl)",
             "@type":"xsd:string",
             "type":"string",
             "format":"uri",
             "dldescription":"A link to get more information about the analysis"
         },
         "merits":{
-            "@id":"https://www.datalinker.org/context/MeritValue",
-            "@type":"https://www.datalinker.org/context/2.0/MeritValue/jsonld",
+            "@id":"[MeritValue](MeritValue.md)",
+            "@type":"@id",
             "type":"array",
             "items":{
                 "type":"object"

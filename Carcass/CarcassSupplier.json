@@ -1,1 +1,27 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"animalKillsheets":{"@id":"https://www.datalinker.org/context/CarcassSupplier-AnimalKillsheets","@type":"@id","type":"string","format":"uri","dldescription":"Url to get Kill sheet information for the Animal","dltype":"https://www.datalinker.org/context/CarcassKillsheet"},"code":{"@id":"https://www.datalinker.org/context/CarcassSupplier-Code","@type":"xsd:string","type":"string","dldescription":"Identifier code for the supplier "},"name":{"@id":"https://www.datalinker.org/context/CarcassSupplier-Name","@type":"xsd:string","type":"string","dldescription":"Supplier Name"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "animalKillsheets": {
+      "@id": "[AnimalKillsheets](#AnimalKillsheets)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": "Url to get Kill sheet information for the Animal",
+      "dltype": "[CarcassKillsheet](CarcassKillsheet.md)"
+    },
+    "code": {
+      "@id": "[Code](#Code)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Identifier code for the supplier "
+    },
+    "name": {
+      "@id": "[Name](#Name)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Supplier Name"
+    }
+  }
+}
+

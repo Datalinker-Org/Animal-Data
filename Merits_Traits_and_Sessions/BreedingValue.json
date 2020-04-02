@@ -1,1 +1,46 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"animalUrl":{"@id":"http://www.datalinker.org/context/BreedingValue-AnimalUrl","@type":"@id","type":"string","format":"uri","dldescription":""},"bvDefinition":{"@id":"http://www.datalinker.org/context/BreedingValue-BvDefinition","@type":"@id","type":"string","format":"uri","dldescription":""},"identifiers":{"@id":"http://www.datalinker.org/context/AnimalIdentifier","@type":"http://www.datalinker.org/contexts/2.0/AnimalIdentifier.jsonld","type":"array","items":{"type":"object"},"@container":"@set","dldescription":""},"bvCode":{"@id":"http://www.datalinker.org/context/BreedingValue-BVCode","@type":"xsd:string","type":"string","dldescription":""},"meritValue":{"@id":"http://www.datalinker.org/context/BreedingValue-MeritValue","@type":"xsd:decimal","type":"number","dldescription":""},"accuracy":{"@id":"http://www.datalinker.org/context/BreedingValue-Accuracy","@type":"xsd:integer","type":"string","dldescription":""}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "animalUrl": {
+      "@id": "[AnimalUrl](#AnimalUrl)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": ""
+    },
+    "bvDefinition": {
+      "@id": "[BvDefinition](#BvDefinition)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dldescription": ""
+    },
+    "identifiers": {
+      "@id": "[Animal](Animal.md)Identifier",
+      "@type": "@id",
+      "type": "array",
+      "items": { "type": "object" },
+      "@container": "@set",
+      "dldescription": ""
+    },
+    "bvCode": {
+      "@id": "[BVCode](#BVCode)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": ""
+    },
+    "meritValue": {
+      "@id": "[MeritValue](#MeritValue)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": ""
+    },
+    "accuracy": {
+      "@id": "[Accuracy](#Accuracy)",
+      "@type": "xsd:integer",
+      "type": "string",
+      "dldescription": ""
+    }
+  }
+}

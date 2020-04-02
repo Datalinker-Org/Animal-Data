@@ -1,0 +1,66 @@
+ - <b id="#/properties/birthCohort">birthCohort</b>
+	 - **Description:** Describes the season (spring/autumn) within the birth year into which animals are categorised. This is most likely derived or calculated from the birth date. As seasons vary around the world (including variations with 2, 4, 6, or 12 cohorts), a cohort number is used to interchange this data.
+	 - **Type:** `string`
+ - <b id="#/properties/birthDate">birthDate</b>
+	 - **Description:** Date on which animal was born
+	 - **Type:** `string`
+ - <b id="#/properties/birthDateConfidence">birthDateConfidence</b>
+	 - **Description:** 3 character string with positional characters representing Year Month Date (YMD). Values are A - accurate, E - estimate, U - unknown (value=A, E or U) e.g. AEU means Year Accurate, Month Estimated and Date Unknown
+	 - **Type:** `string`
+ - <b id="#/properties/birthRank">birthRank</b>
+	 - **Description:** Describes number of progeny born to dam in a single birth event. Values are NULL, 1 if the animal is a singleton, 2 if it is one of twins, etc. Positive integer or NULL
+	 - **Type:** `string`
+ - <b id="#/properties/birthYear">birthYear</b>
+	 - **Description:** Known as YearBorn in many systems. Derived from Birth Date where available.
+	 - **Type:** `string`
+ - <b id="#/properties/breedAssessed">breedAssessed</b>
+	 - **Description:** Visual assessment of animal's primary or major breed. Known as 'Breed' in many systems.
+	 - **Type:** `string`
+ - <b id="#/properties/breedDistributionDenominator">breedDistributionDenominator</b>
+	 - **Description:** Describes the basis for the proportion of each breed expressed in the breed distribution. Values: 16, 64, 100.
+	 - **Type:** `string`
+ - <b id="#/properties/breeds">breeds</b>
+	 - **Description:** A two-dimensional matrix of breed identifiers and the proportion of each breed in the animal (calculated from its parent?s breed components). SIL currently uses percentages, and the NZ Dairy Databases use 16ths. We have also seen systems use 64ths. The breed name component of this attribute SHOULD reference the Animal Breed List values: https://github.com/Datalinker-Org/Farm-Data-Standards/blob/master/Additional%20Value%20Lists/FarmDataStandards_Animal-Breed-List.md
+	 - **Type:** `array`
+	 - <b id="breeddistributionbreeddistribution.md">Link to schema: [BreedDistribution](BreedDistribution.md)</b>
+ - <b id="#/properties/breedSocSECode">breedSocSECode</b>
+	 - **Description:** Breed Society Single Entry Code as used by the Breed Society
+	 - **Type:** `string`
+ - <b id="#/properties/breedSocietyRegStatus">breedSocietyRegStatus</b>
+	 - **Description:** Breed Society Registration Status. Valid values : Not Registered, Registered, NULL
+	 - **Type:** `string`
+ - <b id="#/properties/exitFate">exitFate</b>
+	 - **Description:** Typically describes if the animal is Alive, Dead or in Transit. Also known as 'Status' in some systems. Reason for Fate should be captured as an observation
+	 - **Type:** `string`
+ - <b id="#/properties/preBirthMob">preBirthMob</b>
+	 - **Description:** Mob ewe prior to lambing
+	 - **Type:** `string`
+ - <b id="#/properties/postBirthMob">postBirthMob</b>
+	 - **Description:** Mob ewe post lambing
+	 - **Type:** `string`
+ - <b id="#/properties/primaryBreedAbbreviation">primaryBreedAbbreviation</b>
+	 - **Description:** Abbreviation or short form of the primary breed e.g.'Rom' for Romney
+	 - **Type:** `string`
+ - <b id="#/properties/rearingRank">rearingRank</b>
+	 - **Description:** Rearing rank is used to indicate the number of progeny reared by the same dam during the same lactation as this has an influence on weights and growth rates. For example, an animal reared as a twin will have a rearing rank of 2. May be Null if unknown, or 0 if born dead
+	 - **Type:** `string`
+ - <b id="#/properties/sex">sex</b>
+	 - **Description:** The gender or sex of the animal. This may be combined with current state information from the Animal schema to indicate the fertility status of the animal. Values: Male or Female. NULL  for unknowns
+	 - **Type:** `string`
+ - <b id="#/properties/speciesBinomialName">speciesBinomialName</b>
+	 - **Description:**  Binomial name of the species that combines Genus and Species. Genus is capitalised eg 'Bos taurus''
+	 - **Type:** `string`
+ - <b id="#/properties/speciesCommonName">speciesCommonName</b>
+	 - **Description:** Common term for species. Enumeration: Cattle, Deer, Goats, Sheep
+	 - **Type:** `string`
+ - <b id="#/properties/survivedToWeaning">survivedToWeaning</b>
+	 - **Description:** Indicates whether the progeny survived to weaning (True,False).
+	 - **Type:** `boolean`
+ - <b id="#/properties/visualColor">visualColor</b>
+	 - **Description:** Visually assessed colour of the animal
+	 - **Type:** `string`
+ - <b id="#/properties/horned">horned</b>
+	 - **Description:** Current horned status for the animal.  Values include: Horned, Polled, Disbudded, Scurred.
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

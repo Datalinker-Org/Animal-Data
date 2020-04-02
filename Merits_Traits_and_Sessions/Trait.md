@@ -1,0 +1,36 @@
+ - <b id="#/properties/animalUrl">animalUrl</b>
+	 - **Description:** URL provides further information on the animal
+	 - **Type:** `string`
+	 - <b id="animalanimal.md">Link to schema: [Animal](Animal.md)</b>
+ - <b id="#/properties/traitDefinition">traitDefinition</b>
+	 - **Description:** Definitions valid for the herd
+	 - **Type:** `string`
+	 - <b id="traitdefinitiontraitdefinition.md">Link to schema: [TraitDefinition](TraitDefinition.md)</b>
+ - <b id="#/properties/recordingHerd">recordingHerd</b>
+	 - **Description:** URL provides herd information for which the trait was recorded
+	 - **Type:** `string`
+	 - <b id="herdherd.md">Link to schema: [Herd](Herd.md)</b>
+ - <b id="#/properties/animalIdentifiers">animalIdentifiers</b>
+	 - **Description:** Array of animal identifiers
+	 - **Type:** `array`
+	 - <b id="animalidentifiersanimalidentifiers.md">Link to schema: [AnimalIdentifiers](AnimalIdentifiers.md)</b>
+ - <b id="#/properties/recordingYear">recordingYear</b>
+	 - **Description:** Year in which the trait was recorded
+	 - **Type:** `string`
+ - <b id="#/properties/recordingPeriod">recordingPeriod</b>
+	 - **Description:** Month of the year in which the trait was recorded
+	 - **Type:** `string`
+ - <b id="#/properties/recordingMob">recordingMob</b>
+	 - **Description:** Mob number usually 0-9
+	 - **Type:** `string`
+ - <b id="#/properties/recordingDate">recordingDate</b>
+	 - **Description:** Date of recording of the trait
+	 - **Type:** `string`
+ - <b id="#/properties/traitCode">traitCode</b>
+	 - **Description:** URN based short code that represents the trait
+	 - **Type:** `string`
+ - <b id="#/properties/traitValue">traitValue</b>
+	 - **Description:** Observed value of the trait
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

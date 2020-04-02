@@ -3,26 +3,26 @@
     "type": "object",
     "properties": {
         "currentState": {
-            "@id": "https://www.datalinker.org/context/AnimalState",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalState.jsonld",
+            "@id": "[AnimalState](AnimalState.md)",
+            "@type": "@id",
             "type": "object",
             "dldescription": "Describes the state of an animal, including current location, fate, and fertility status"
         },
         "identity": {
-            "@id": "https://www.datalinker.org/context/AnimalIdentity",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalIdentity.jsonld",
+            "@id": "[AnimalIdentity](AnimalIdentity.md)",
+            "@type": "@id",
             "type": "object",
             "dldescription": "Describes the identity of an animal, including tag identification, location, and herd"
         },
         "lifeData": {
-            "@id": "https://www.datalinker.org/context/AnimalLifeData",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalLifeData.jsonld",
+            "@id": "[AnimalLifeData](AnimalLifeData.md)",
+            "@type": "@id",
             "type": "object",
             "dldescription": "Describes Animal Life attributes that typically do not change over the lifetime of the animal"
         },
         "parentage": {
-            "@id": "https://www.datalinker.org/context/AnimalParentage",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalParentage.jsonld",
+            "@id": "[AnimalParentage](AnimalParentage.md)",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"

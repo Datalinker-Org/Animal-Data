@@ -1,0 +1,74 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the Parturation OffSpring event
+	 - **Type:** `string`
+ - <b id="#/properties/animalId">animalId</b>
+	 - **Description:** Unique Id of the related animal
+	 - **Type:** `string`
+ - <b id="#/properties/anomalias">anomalias</b>
+	 - **Description:** Possible malformations/abnormalities of the calf (Yes, No, Unknown)
+	 - **Type:** `string`
+ - <b id="#/properties/anomaliasExplanation">anomaliasExplanation</b>
+	 - **Description:** Explanation of the abnormality (Not Defined, General Malformation, Head Malformed, etc(https://test.nordiccdx.com/Help/Codeset?name=CALF_ANOMALIAS_EXP))
+	 - **Type:** `string`
+ - <b id="#/properties/birthSize">birthSize</b>
+	 - **Description:** The size of the born calf (Small, Almost average, Above average, Big)
+	 - **Type:** `string`
+ - <b id="#/properties/birthStatus">birthStatus</b>
+	 - **Description:** Status of the calf after birth (Unknown, Live calf, Abortion, Stillborn, etc(https://test.nordiccdx.com/Help/Codeset?name=CALF_BIRTH_STATUS))
+	 - **Type:** `string`
+ - <b id="#/properties/breed">breed</b>
+	 - **Description:** Breed of the calf (Unknown, Ayrshire, Holstein, BrownSwiss, Hereford, etc(https://test.nordiccdx.com/Help/Codeset?name=BREED))
+	 - **Type:** `string`
+ - <b id="#/properties/carcassRemoval">carcassRemoval</b>
+	 - **Description:** How the dead calf was disposed of (Unknown, Burn, Carcass, Burial, Carcass Collection, Other)
+	 - **Type:** `string`
+ - <b id="#/properties/childObjectId">childObjectId</b>
+	 - **Description:** Id of inner object, unique per parent event
+	 - **Type:** `string`
+ - <b id="#/properties/deathDate">deathDate</b>
+	 - **Description:** Date of death of calf
+	 - **Type:** `string`
+ - <b id="#/properties/earNumber">earNumber</b>
+	 - **Description:** Ear number of the calf
+	 - **Type:** `string`
+ - <b id="#/properties/gender">gender</b>
+	 - **Description:** The gender of the calf (Male, Female, Unknown)
+	 - **Type:** `string`
+ - <b id="#/properties/geneticDamId">geneticDamId</b>
+	 - **Description:** Id of the genetic dam (different from carrier with embryos)
+	 - **Type:** `string`
+ - <b id="#/properties/geneticManipulation">geneticManipulation</b>
+	 - **Description:** Is the calf geneticly manipulated (True or False)
+	 - **Type:** `boolean`
+ - <b id="#/properties/geneticSireId">geneticSireId</b>
+	 - **Description:** Id of the Sire
+	 - **Type:** `string`
+ - <b id="#/properties/hornStatus">hornStatus</b>
+	 - **Description:** Horned state of calf (Polled, Horned, Unknown)
+	 - **Type:** `string`
+ - <b id="#/properties/markingDate">markingDate</b>
+	 - **Description:** Date of earmarking of calf
+	 - **Type:** `string`
+ - <b id="#/properties/name">name</b>
+	 - **Description:** Name of the calf
+	 - **Type:** `string`
+ - <b id="#/properties/price">price</b>
+	 - **Description:** Price of the calf
+	 - **Type:** `string`
+ - <b id="#/properties/shortName">shortName</b>
+	 - **Description:** Short name of the calf
+	 - **Type:** `string`
+ - <b id="#/properties/sireBreed">sireBreed</b>
+	 - **Description:** Breed of the sire (Unknown, Ayrshire, Holstein, BrownSwiss, Hereford, etc(https://test.nordiccdx.com/Help/Codeset?name=BREED))
+	 - **Type:** `string`
+ - <b id="#/properties/sireHerdBookNumber">sireHerdBookNumber</b>
+	 - **Description:** Herd Book Number of the sire
+	 - **Type:** `string`
+ - <b id="#/properties/useMode">useMode</b>
+	 - **Description:** Usage of the calf (Unknown, Dairy, Suckler, Meat production, Breeding animal, Test animal, Other)
+	 - **Type:** `string`
+ - <b id="#/properties/weight">weight</b>
+	 - **Description:** Weight of the calf
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

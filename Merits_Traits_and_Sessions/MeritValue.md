@@ -1,0 +1,39 @@
+ - <b id="#/properties/analysisUrl">analysisUrl</b>
+	 - **Description:** Provides further information about the analysis
+	 - **Type:** `string`
+ - <b id="#/properties/animalUrl">animalUrl</b>
+	 - **Description:** Provides further information about the animal
+	 - **Type:** `string`
+	 - <b id="animalanimal.md">Link to schema: [Animal](Animal.md)</b>
+ - <b id="#/properties/animalIdentifiers">animalIdentifiers</b>
+	 - **Description:** Array of animal identifiers
+	 - **Type:** `array`
+	 - <b id="animalidentifiersanimalidentifiers.md">Link to schema: [AnimalIdentifiers](AnimalIdentifiers.md)</b>
+ - <b id="#/properties/meritDefinition">meritDefinition</b>
+	 - **Description:** Defines the merit - its name, type, unit and how it is computed
+	 - **Type:** `string`
+	 - <b id="meritdefinitionmeritdefinition.md">Link to schema: [MeritDefinition](MeritDefinition.md)</b>
+ - <b id="#/properties/meritShortName">meritShortName</b>
+	 - **Description:** Short name for the merit
+	 - **Type:** `string`
+ - <b id="#/properties/meritType">meritType</b>
+	 - **Description:** Indicates what type of merit it is within the provider system. Eg.In SIL it can be Breeding Value or Index, In LIC it can be BW or PW
+	 - **Type:** `string`
+	 - <b id="merittypemerittype.md">Link to schema: [MeritType](MeritType.md)</b>
+ - <b id="#/properties/value">value</b>
+	 - **Description:** Value for the merit
+	 - **Type:** `string`
+ - <b id="#/properties/displayValue">displayValue</b>
+	 - **Description:** Display Value for the merit
+	 - **Type:** `string`
+ - <b id="#/properties/meritKey">meritKey</b>
+	 - **Description:** Underlying identifier for the merit value 
+	 - **Type:** `string`
+ - <b id="#/properties/accuracy">accuracy</b>
+	 - **Description:** Percentage accuracy of the reported value
+	 - **Type:** `number`
+ - <b id="#/properties/meritID">meritID</b>
+	 - **Description:** The identifier for the merit value
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

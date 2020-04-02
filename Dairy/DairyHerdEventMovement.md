@@ -1,0 +1,29 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the herd movement event
+	 - **Type:** `string`
+ - <b id="#/properties/dairyHerdEventId">dairyHerdEventId</b>
+	 - **Description:** herd event id that this movement event is part of
+	 - **Type:** `string`
+ - <b id="#/properties/typeOfMovement">typeOfMovement</b>
+	 - **Description:** Type of movement either Arrival or Departure
+	 - **Type:** `string`
+ - <b id="#/properties/date">date</b>
+	 - **Description:** The date the movement event occured
+	 - **Type:** `string`
+ - <b id="#/properties/farmId">farmId</b>
+	 - **Description:** Unique Id of the Farm used in the movement event
+	 - **Type:** `string`
+ - <b id="#/properties/holdingPlace">holdingPlace</b>
+	 - **Description:** Government Id for the barn to which the animal arrives
+	 - **Type:** `string`
+ - <b id="#/properties/locationId">locationId</b>
+	 - **Description:** Identification of the herd from which the animals have been transferred from
+	 - **Type:** `string`
+ - <b id="#/properties/ownerType">ownerType</b>
+	 - **Description:** The type of the previous owner (Farm, Agent, Ministry Customer)
+	 - **Type:** `string`
+ - <b id="#/properties/transferCause">transferCause</b>
+	 - **Description:** the cause/reason for transfer of the animals
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

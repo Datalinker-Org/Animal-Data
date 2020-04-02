@@ -1,1 +1,18 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"breedName":{"@id":"https://www.datalinker.org/context/BreedDistribution-BreedName","@type":"xsd:string","type":"string","dldescription":"The breed identifier of the breed"},"proportion":{"@id":"https://www.datalinker.org/context/BreedDistribution-BreedProportion","@type":"xsd:decimal","type":"number","dldescription":"The proportion of the named breed in the animal"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "breedName": {
+      "@id": "[BreedName](#BreedName)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "The breed identifier of the breed"
+    },
+    "proportion": {
+      "@id": "[BreedProportion](#BreedProportion)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "The proportion of the named breed in the animal"
+    }
+  }
+}

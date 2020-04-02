@@ -1,1 +1,90 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"id":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-id","@type":"xsd:string","type":"string","dldescription":"Unique Id of the Milking Sample"},"acetone":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-acetone","@type":"xsd:decimal","type":"number","dldescription":"Value for Acetone (mmol/l)"},"avgCond":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-avgCond","@type":"xsd:decimal","type":"number","dldescription":"Average conductivity value of the milk at 25�C (mS/cm)"},"brb":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-brb","@type":"xsd:decimal","type":"number","dldescription":"Value for Beta hydroxybutyrate (mmol/l)"},"blood":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-blood","@type":"xsd:boolean","type":"boolean","dldescription":"Was there blood (True or False)"},"ecmMilk":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-ecmMilk","@type":"xsd:integer","type":"string","dldescription":"Energy corrected milk yield per day (kg)"},"fat":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-fat","@type":"xsd:decimal","type":"number","dldescription":"Value for Fat (percentage)"},"lac":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-lac","@type":"xsd:decimal","type":"number","dldescription":"Value for Lactose (percentage)"},"ldh":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-ldh","@type":"xsd:decimal","type":"number","dldescription":"Value for Lactate dehydrogenase (IU/l)"},"maxCond":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-maxCond","@type":"xsd:decimal","type":"number","dldescription":"Maximum conductivity value of the milk at 25�C (mS/cm)"},"pro":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-pro","@type":"xsd:decimal","type":"number","dldescription":"Value for Progesteron (mmol/l)"},"protien":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-protien","@type":"xsd:decimal","type":"number","dldescription":"Value for Protein (percentage)"},"scc":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-scc","@type":"xsd:integer","type":"string","dldescription":"Value for Somatic cell count (x1000 cells/ml)"},"urea":{"@id":"https://www.datalinker.org/context/DairyMilkingSample-urea","@type":"xsd:integer","type":"string","dldescription":"Value for Urea (ppm, mg/l)"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "@id": "[id](#id)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the Milking Sample"
+    },
+    "acetone": {
+      "@id": "[acetone](#acetone)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Acetone (mmol/l)"
+    },
+    "avgCond": {
+      "@id": "[avgCond](#avgCond)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Average conductivity value of the milk at 25C (mS/cm)"
+    },
+    "brb": {
+      "@id": "[brb](#brb)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Beta hydroxybutyrate (mmol/l)"
+    },
+    "blood": {
+      "@id": "[blood](#blood)",
+      "@type": "xsd:boolean",
+      "type": "boolean",
+      "dldescription": "Was there blood (True or False)"
+    },
+    "ecmMilk": {
+      "@id": "[ecmMilk](#ecmMilk)",
+      "@type": "xsd:integer",
+      "type": "string",
+      "dldescription": "Energy corrected milk yield per day (kg)"
+    },
+    "fat": {
+      "@id": "[fat](#fat)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Fat (percentage)"
+    },
+    "lac": {
+      "@id": "[lac](#lac)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Lactose (percentage)"
+    },
+    "ldh": {
+      "@id": "[ldh](#ldh)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Lactate dehydrogenase (IU/l)"
+    },
+    "maxCond": {
+      "@id": "[maxCond](#maxCond)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Maximum conductivity value of the milk at 25C (mS/cm)"
+    },
+    "pro": {
+      "@id": "[pro](#pro)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Progesteron (mmol/l)"
+    },
+    "protien": {
+      "@id": "[pro](#pro)tien",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Value for Protein (percentage)"
+    },
+    "scc": {
+      "@id": "[scc](#scc)",
+      "@type": "xsd:integer",
+      "type": "string",
+      "dldescription": "Value for Somatic cell count (x1000 cells/ml)"
+    },
+    "urea": {
+      "@id": "[urea](#urea)",
+      "@type": "xsd:integer",
+      "type": "string",
+      "dldescription": "Value for Urea (ppm, mg/l)"
+    }
+  }
+}

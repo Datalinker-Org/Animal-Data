@@ -3,15 +3,15 @@
     "type": "object",
     "properties": {
         "animalUrl": {
-            "@id": "https://www.datalinker.org/context/AnimalMerits-AnimalUrl",
+            "@id": "[AnimalUrl](#AnimalUrl)",
             "@type": "xsd:string",
             "type": "string",
             "format": "uri",
             "dldescription": "URL to retrive further information about the animal"
         },
         "animalIdentifiers": {
-            "@id": "http://www.datalinker.org/context/AnimalIdentifiers",
-            "@type": "https://www.datalinker.org/contexts/2.0/AnimalIdentifier.jsonld",
+            "@id": "[AnimalIdentifiers](AnimalIdentifiers.md)",
+            "@type": "@id",
             "type": "array",
             "items": {
                 "type": "object"
@@ -20,9 +20,9 @@
             "dldescription": "Array of animal identifiers"
         },
         "analyses": { 
-            "@id": "https://www.datalinker.org/context/MeritAnalysis",
+            "@id": "[MeritAnalysis](MeritAnalysis.md)",
             "dldescription": "Sets of analysis results for the animal",
-            "@type": "https://www.datalinker.org/contexts/2.0/MeritAnalysis.jsonld",
+            "@type": "@id",
             "type":"array",
             "items":{
                 "type":"object"

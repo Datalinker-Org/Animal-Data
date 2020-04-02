@@ -1,0 +1,23 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the animal event
+	 - **Type:** `string`
+ - <b id="#/properties/animalId">animalId</b>
+	 - **Description:** Unique Id of the related animal
+	 - **Type:** `string`
+ - <b id="#/properties/herdEventId">herdEventId</b>
+	 - **Description:** Unique Id of the related herd event
+	 - **Type:** `string`
+ - <b id="#/properties/date">date</b>
+	 - **Description:** The date that the event occured
+	 - **Type:** `string`
+ - <b id="#/properties/notes">notes</b>
+	 - **Description:** Any notes relating to the event
+	 - **Type:** `string`
+ - <b id="#/properties/eventType">eventType</b>
+	 - **Description:** The type of Event this is (Reproduction, Milking, Weigh)
+	 - **Type:** `string`
+ - <b id="#/properties/content">content</b>
+	 - **Description:** The class specified by event type eg.(Reproduction, Milking, Weigh)
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

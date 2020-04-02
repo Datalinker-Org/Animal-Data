@@ -1,0 +1,26 @@
+ - <b id="#/properties/organization">organization</b>
+	 - **Description:** The official name or the registered name of the organization
+	 - **Type:** `object`
+	 - <b id="organizationorganization.md">Link to schema: [Organization](Organization.md)</b>
+ - <b id="#/properties/sessionDate">sessionDate</b>
+	 - **Description:** Date on which a session of observations were recorded
+	 - **Type:** `string`
+ - <b id="#/properties/sessionName">sessionName</b>
+	 - **Description:** Name of the recorded session
+	 - **Type:** `string`
+ - <b id="#/properties/reference">reference</b>
+	 - **Description:** Indicates the session reference
+	 - **Type:** `string`
+ - <b id="#/properties/herdCodes">herdCodes</b>
+	 - **Description:** Array of herds
+	 - **Type:** `array`
+ - <b id="#/properties/sessionObservations">sessionObservations</b>
+	 - **Description:** Array of Observations
+	 - **Type:** `array`
+	 - <b id="sessionobservationssessionobservations.md">Link to schema: [SessionObservations](SessionObservations.md)</b>
+ - <b id="#/properties/sessionAnimals">sessionAnimals</b>
+	 - **Description:** Array of Animals
+	 - **Type:** `array`
+	 - <b id="sessionanimalssessionanimals.md">Link to schema: [SessionAnimals](SessionAnimals.md)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

@@ -1,1 +1,78 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"id":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-id","@type":"xsd:string","type":"string","dldescription":"Unique Id of the Milking Result"},"milkingEventId":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-milkingEventId","@type":"xsd:string","type":"string","dldescription":"Unique Id of the milking event"},"quarterType":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-quarterType","@type":"xsd:string","type":"string","dldescription":"Which Quarter this Milking result is for (Front-Left, Front-Right, Rear-Left, Rear-Right or None) "},"bottleIdentifer":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-bottleIdentifer","@type":"xsd:string","type":"string","dldescription":"Unique Id of the bottle (vial) used"},"bottlePosition":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-bottlePosition","@type":"xsd:string","type":"string","dldescription":"positioning of the bottle (vial) in the sample rack"},"concentrate":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-concentrate","@type":"xsd:decimal","type":"number","dldescription":"Amount of concentrate given on SampleDate in Kg"},"measureDeviceId":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-measureDeviceId","@type":"xsd:string","type":"string","dldescription":"Id of the measuring device used"},"milkingBoxNumber":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-milkingBoxNumber","@type":"xsd:string","type":"string","dldescription":"Id of the milkbox in (AMS unit)"},"milkWeight":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-milkWeight","@type":"xsd:decimal","type":"number","dldescription":"Weight of the milk from this milking"},"parlorUnit":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-parlorUnit","@type":"xsd:string","type":"string","dldescription":"Id of the parlor unit"},"averageFlowRate":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-averageFlowRate","@type":"xsd:decimal","type":"number","dldescription":"The average flow rate of the milk in Kg/min"},"maxFlowRate":{"@id":"https://www.datalinker.org/context/DairyMilkingResult-maxFlowRate","@type":"xsd:decimal","type":"number","dldescription":"The max flow rate of the milk in Kg/min"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "@id": "[id](#id)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the Milking Result"
+    },
+    "milkingEventId": {
+      "@id": "[milkingEventId](#milkingEventId)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the milking event"
+    },
+    "quarterType": {
+      "@id": "[quarterType](#quarterType)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Which Quarter this Milking result is for (Front-Left, Front-Right, Rear-Left, Rear-Right or None) "
+    },
+    "bottleIdentifer": {
+      "@id": "[bottleIdentifer](#bottleIdentifer)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Unique Id of the bottle (vial) used"
+    },
+    "bottlePosition": {
+      "@id": "[bottlePosition](#bottlePosition)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "positioning of the bottle (vial) in the sample rack"
+    },
+    "concentrate": {
+      "@id": "[concentrate](#concentrate)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Amount of concentrate given on SampleDate in Kg"
+    },
+    "measureDeviceId": {
+      "@id": "[measureDeviceId](#measureDeviceId)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Id of the measuring device used"
+    },
+    "milkingBoxNumber": {
+      "@id": "[milkingBoxNumber](#milkingBoxNumber)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Id of the milkbox in (AMS unit)"
+    },
+    "milkWeight": {
+      "@id": "[milkWeight](#milkWeight)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "Weight of the milk from this milking"
+    },
+    "parlorUnit": {
+      "@id": "[parlorUnit](#parlorUnit)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Id of the parlor unit"
+    },
+    "averageFlowRate": {
+      "@id": "[averageFlowRate](#averageFlowRate)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "The average flow rate of the milk in Kg/min"
+    },
+    "maxFlowRate": {
+      "@id": "[maxFlowRate](#maxFlowRate)",
+      "@type": "xsd:decimal",
+      "type": "number",
+      "dldescription": "The max flow rate of the milk in Kg/min"
+    }
+  }
+}

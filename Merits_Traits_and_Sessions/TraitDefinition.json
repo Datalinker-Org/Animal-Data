@@ -3,31 +3,31 @@
     "type": "object",
     "properties": {
         "traitCode": {
-            "@id": "http://www.datalinker.org/context/TraitDefinition-TraitCode",
+            "@id": "[TraitCode](#TraitCode)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Namespace that represents the trait.  A suggestion is <site><identifier><trait><trait code> eg:"
         },
         "traitType": {
-            "@id": "http://www.datalinker.org/context/TraitDefinition-TraitType",
+            "@id": "[TraitType](#TraitType)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Usually free text which indicates what kind of trait it is"
         },
         "traitName": {
-            "@id": "http://www.datalinker.org/context/TraitDefinition-TraitName",
+            "@id": "[TraitName](#TraitName)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Name of the trait"
         },
         "traitDataType": {
-            "@id": "http://www.datalinker.org/context/TraitDefinition-TraitDataType",
+            "@id": "[TraitDataType](#TraitDataType)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Indicates how the trait data can be represented"
         },
         "traitUnits": {
-            "@id": "http://www.datalinker.org/context/TraitDefinition-TraitUnits",
+            "@id": "[TraitUnits](#TraitUnits)",
             "@type": "xsd:string",
             "type": "string",
             "dldescription": "Unit in which the trait is recorded"

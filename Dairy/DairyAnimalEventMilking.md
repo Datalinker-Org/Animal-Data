@@ -1,0 +1,48 @@
+ - <b id="#/properties/animalEventId">animalEventId</b>
+	 - **Description:** Unique Id of the related animal
+	 - **Type:** `string`
+ - <b id="#/properties/sampleId">sampleId</b>
+	 - **Description:** Unique Id of the sample (if one has been taken)
+	 - **Type:** `string`
+ - <b id="#/properties/sampleTaken">sampleTaken</b>
+	 - **Description:** If a sample has been taken(True or False)
+	 - **Type:** `boolean`
+ - <b id="#/properties/sample">sample</b>
+	 - **Description:** Sample results of this milking event
+	 - **Type:** `object`
+	 - <b id="dairymilkingsampledairymilkingsample.md">Link to schema: [DairyMilkingSample](DairyMilkingSample.md)</b>
+ - <b id="#/properties/testMilkExcpetion">testMilkExcpetion</b>
+	 - **Description:** Exception code that occurred during the milking
+	 - **Type:** `string`
+ - <b id="#/properties/milkingMode">milkingMode</b>
+	 - **Description:** Mode that the milking was done (Manual or Robotic)
+	 - **Type:** `string`
+ - <b id="#/properties/startTime">startTime</b>
+	 - **Description:** The time the milking started
+	 - **Type:** `string`
+ - <b id="#/properties/endTime">endTime</b>
+	 - **Description:** The time the milking ended
+	 - **Type:** `string`
+ - <b id="#/properties/duration">duration</b>
+	 - **Description:** duration of the milking
+	 - **Type:** `number`
+ - <b id="#/properties/milkingSuccess">milkingSuccess</b>
+	 - **Description:** If the milking was successful(True or False)
+	 - **Type:** `boolean`
+ - <b id="#/properties/rackNumber">rackNumber</b>
+	 - **Description:** The number of the sample rack, Mandatory if the sample is taken.
+	 - **Type:** `integer`
+ - <b id="#/properties/milkingResult">milkingResult</b>
+	 - **Description:** Milking results of this milking event
+	 - **Type:** `object`
+	 - <b id="dairymilkingresultdairymilkingresult.md">Link to schema: [DairyMilkingResult](DairyMilkingResult.md)</b>
+ - <b id="#/properties/quarterResults">quarterResults</b>
+	 - **Description:** Milking results for each quater if they are recorded
+	 - **Type:** `array`
+	 - <b id="dairymilkingresultdairymilkingresult.md">Link to schema: [DairyMilkingResult](DairyMilkingResult.md)</b>
+ - <b id="#/properties/labAnalysisDetails">labAnalysisDetails</b>
+	 - **Description:** Details of the Lab that provided the analysis
+	 - **Type:** `object`
+	 - <b id="dairymilkingresultdairymilkingresult.mdlabdetails">Link to schema: [DairyMilkingResult](DairyMilkingResult.md)LabDetails</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

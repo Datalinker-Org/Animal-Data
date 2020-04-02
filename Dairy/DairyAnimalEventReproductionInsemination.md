@@ -1,0 +1,50 @@
+ - <b id="#/properties/id">id</b>
+	 - **Description:** Unique Id of the animal event
+	 - **Type:** `string`
+ - <b id="#/properties/animalId">animalId</b>
+	 - **Description:** Unique Id of the related animal
+	 - **Type:** `string`
+ - <b id="#/properties/herdEventId">herdEventId</b>
+	 - **Description:** Unique Id of the related herd event
+	 - **Type:** `string`
+ - <b id="#/properties/animalEarNumber">animalEarNumber</b>
+	 - **Description:** The ear number of the inseminated cow
+	 - **Type:** `string`
+ - <b id="#/properties/batchNumber">batchNumber</b>
+	 - **Description:** Batch or Freezing Number
+	 - **Type:** `string`
+ - <b id="#/properties/containerId">containerId</b>
+	 - **Description:** Farm's container number from where the bull dose was taken. NULL for natural matings
+	 - **Type:** `string`
+ - <b id="#/properties/doseUsage">doseUsage</b>
+	 - **Description:** Dose usage - see codes. NULL for natural matings (1 dose used, 2 dose used, last dose used (of batch))
+	 - **Type:** `string`
+ - <b id="#/properties/heatStrength">heatStrength</b>
+	 - **Description:** Observed sign/strength of heat (https://test.nordiccdx.com/Help/Codeset?name=HEAT_STRENGTH)
+	 - **Type:** `string`
+ - <b id="#/properties/inseminationType">inseminationType</b>
+	 - **Description:** The type of the insemination (https://test.nordiccdx.com/Help/Codeset?name=INSEMINATION_TYPE)
+	 - **Type:** `string`
+ - <b id="#/properties/inseminator">inseminator</b>
+	 - **Description:** Inseminator's id number, has to be a licensed person for artificial inseminations, NULL for natural matings
+	 - **Type:** `string`
+ - <b id="#/properties/insemNumber">insemNumber</b>
+	 - **Description:** Serial number of insemination after the last calving
+	 - **Type:** `string`
+ - <b id="#/properties/serviceSireBreed">serviceSireBreed</b>
+	 - **Description:** The breed for the insemination sire (https://test.nordiccdx.com/Help/Codeset?name=BREED)
+	 - **Type:** `string`
+ - <b id="#/properties/serviceSireHerdBookNumber">serviceSireHerdBookNumber</b>
+	 - **Description:** The herdbooknr for the insemination sire
+	 - **Type:** `string`
+ - <b id="#/properties/serviceSireIndentifer">serviceSireIndentifer</b>
+	 - **Description:** The animal identification of the bull
+	 - **Type:** `string`
+ - <b id="#/properties/serviceSireName">serviceSireName</b>
+	 - **Description:** The name for the insemination sire
+	 - **Type:** `string`
+ - <b id="#/properties/typeOfSemen">typeOfSemen</b>
+	 - **Description:** The semen type (https://test.nordiccdx.com/Help/Codeset?name=SEMEN_TYPE)
+	 - **Type:** `string`
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
