@@ -1,6 +1,6 @@
 # Animal-Data
 
-Schemas for animal carcass, animal merits, animal traits, animal sessions and Dairy.
+Data for livestock pedigree and performance observations, as well as predictions of animal merit.
 
 ## Schemas for [Carcass data](Carcass/README.MD)
 
