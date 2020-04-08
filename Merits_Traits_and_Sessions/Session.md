@@ -1,7 +1,7 @@
  - <b id="#/properties/organization">organization</b>
 	 - **Description:** The official name or the registered name of the organization
 	 - **Type:** `object`
-	 - <b id="organizationorganization.md">Link to schema: [Organization](Organization.md)</b>
+	 - <b id="organizationhttpsgithub.comdatalinker-orgsharedblobmasterorganization.md">Link to schema: [Organization](https://github.com/Datalinker-Org/Shared/blob/master/Organization.md)</b>
  - <b id="#/properties/sessionDate">sessionDate</b>
 	 - **Description:** Date on which a session of observations were recorded
 	 - **Type:** `string`

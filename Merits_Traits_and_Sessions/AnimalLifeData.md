@@ -20,7 +20,7 @@
 	 - **Description:** Describes the basis for the proportion of each breed expressed in the breed distribution. Values: 16, 64, 100.
 	 - **Type:** `string`
  - <b id="#/properties/breeds">breeds</b>
-	 - **Description:** A two-dimensional matrix of breed identifiers and the proportion of each breed in the animal (calculated from its parent?s breed components). SIL currently uses percentages, and the NZ Dairy Databases use 16ths. We have also seen systems use 64ths. The breed name component of this attribute SHOULD reference the Animal Breed List values: https://github.com/Datalinker-Org/Farm-Data-Standards/blob/master/Additional%20Value%20Lists/FarmDataStandards_Animal-Breed-List.md
+	 - **Description:** A two-dimensional matrix of breed identifiers and the proportion of each breed in the animal (calculated from its parent�s breed components). SIL currently uses percentages, and the NZ Dairy Databases use 16ths. We have also seen systems use 64ths. The breed name component of this attribute SHOULD reference the Animal Breed List values: https://github.com/Datalinker-Org/Farm-Data-Standards/blob/master/Additional%20Value%20Lists/FarmDataStandards_Animal-Breed-List.md
 	 - **Type:** `array`
 	 - <b id="breeddistributionbreeddistribution.md">Link to schema: [BreedDistribution](BreedDistribution.md)</b>
  - <b id="#/properties/breedSocSECode">breedSocSECode</b>

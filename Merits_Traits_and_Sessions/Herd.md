@@ -10,6 +10,6 @@
  - <b id="#/properties/contactPerson">contactPerson</b>
 	 - **Description:** Contact of the person in charge of the herd
 	 - **Type:** `array`
-	 - <b id="contactpointcontactpoint.md">Link to schema: [ContactPoint](ContactPoint.md)</b>
+	 - <b id="contactpointhttpsgithub.comdatalinker-orgsharedblobmastercontactpoint.md">Link to schema: [ContactPoint](https://github.com/Datalinker-Org/Shared/blob/master/ContactPoint.md)</b>
 
 _Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_

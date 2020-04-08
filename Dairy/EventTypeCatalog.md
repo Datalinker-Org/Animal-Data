@@ -1,0 +1,29 @@
+ - <b id="#/properties/ICARAnimalEventMilking">ICARAnimalEventMilking</b>
+	 - **Type:** `object`
+	 - <b id="icaranimaleventmilkinghttpsgithub.comdatalinker-orgicar-rezareicaranimaleventmilking">Link to schema: [ICARAnimalEventMilking](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventMilking)</b>
+ - <b id="#/properties/ICARAnimalEventDryingOff">ICARAnimalEventDryingOff</b>
+	 - **Type:** `object`
+	 - <b id="icaranimaleventdryingoffhttpsgithub.comdatalinker-orgicar-rezareicaranimaleventdryingoff">Link to schema: [ICARAnimalEventDryingOff](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventDryingOff)</b>
+ - <b id="#/properties/ICARAnimalEventHeat">ICARAnimalEventHeat</b>
+	 - **Type:** `object`
+	 - <b id="icaranimaleventheathttpsgithub.comdatalinker-orgicar-rezareicaranimaleventheat">Link to schema: [ICARAnimalEventHeat](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventHeat)</b>
+ - <b id="#/properties/ICARAnimalEventInsemination">ICARAnimalEventInsemination</b>
+	 - **Type:** `object`
+	 - <b id="icaranimaleventinseminationhttpsgithub.comdatalinker-orgicar-rezareicaranimaleventinsemination">Link to schema: [ICARAnimalEventInsemination](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventInsemination)</b>
+ - <b id="#/properties/ICARAnimalEventParturition">ICARAnimalEventParturition</b>
+	 - **Type:** `object`
+	 - <b id="icaranimaleventparturitionhttpsgithub.comdatalinker-orgicar-rezareicaranimaleventparturition">Link to schema: [ICARAnimalEventParturition](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventParturition)</b>
+ - <b id="#/properties/ICARAnimalEventPregnancyCheck">ICARAnimalEventPregnancyCheck</b>
+	 - **Type:** `object`
+	 - <b id="icaranimaleventpregnancycheckhttpsgithub.comdatalinker-orgicar-rezareicaranimaleventpregnancycheck">Link to schema: [ICARAnimalEventPregnancyCheck](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalEventPregnancyCheck)</b>
+ - <b id="#/properties/ICARAnimalParturitionOffSpring">ICARAnimalParturitionOffSpring</b>
+	 - **Type:** `object`
+	 - <b id="icaranimalparturitionoffspringhttpsgithub.comdatalinker-orgicar-rezareicaranimalparturitionoffspring">Link to schema: [ICARAnimalParturitionOffSpring](https://github.com/Datalinker-Org/ICAR-Rezare/ICARAnimalParturitionOffSpring)</b>
+ - <b id="#/properties/ICARHerdEventMovement">ICARHerdEventMovement</b>
+	 - **Type:** `object`
+	 - <b id="icarherdeventmovementhttpsgithub.comdatalinker-orgicar-rezareicarherdeventmovement">Link to schema: [ICARHerdEventMovement](https://github.com/Datalinker-Org/ICAR-Rezare/ICARHerdEventMovement)</b>
+ - <b id="#/properties/ICARHerdEventMilking">ICARHerdEventMilking</b>
+	 - **Type:** `object`
+	 - <b id="icarherdeventmilkinghttpsgithub.comdatalinker-orgicar-rezareicarherdeventmilking">Link to schema: [ICARHerdEventMilking](https://github.com/Datalinker-Org/ICAR-Rezare/ICARHerdEventMilking)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
